@@ -1,0 +1,6 @@
+    # job_queue.run_daily(send_daily_report, time(hour=20, minute=10, second=0))
+    # job_queue.run_daily(send_daily_report, time(hour=20, minute=10, second=10))
+    # job_queue.run_daily(send_daily_report, time(hour=20, minute=10, second=20))
+    # job_queue.run_daily(send_daily_report, time(hour=20, minute=10, second=30))
+    # job_queue.run_daily(send_daily_report, time(hour=20, minute=10, second=40))
+    # logging.info("已設置多個 20:10 的測試發送時間點")

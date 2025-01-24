@@ -1,0 +1,6 @@
+# Telegram bot token and username
+TOKEN: Final = "8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY"
+BOT_USERNAME: Final = "@TW_market_info_bot"
+
+# Telegram user ID to send messages (your user ID)
+MY_USER_ID: Final = 1942679873

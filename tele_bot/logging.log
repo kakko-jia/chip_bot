@@ -1,0 +1,2264 @@
+2024-10-13 11:38:10,952 - INFO - Telegram Bot Starting...
+2024-10-13 11:38:10,967 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-13 11:38:10,967 - INFO - Polling...
+2024-10-13 11:38:11,756 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-13 11:38:12,009 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-13 11:38:12,009 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-13 11:38:12,009 - INFO - Scheduler started
+2024-10-13 11:38:12,009 - INFO - Application started
+2024-10-13 11:38:20,972 - INFO - Removed job 7dd1b777bea849c09eb39726494d7288
+2024-10-13 11:38:20,972 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-13 03:38:20 UTC], next run at: 2024-10-13 03:38:20 UTC)" (scheduled at 2024-10-13 03:38:20.967388+00:00)
+2024-10-13 11:38:20,972 - INFO - 開始處理 TWSE 資料...
+2024-10-13 11:38:20,974 - INFO - TWSE 資料處理完成：2024-10-11, 成交金額 363,069,518,550 
+2024-10-13 11:38:20,974 - INFO - 開始處理三大法人買賣超資料...
+2024-10-13 11:38:20,977 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-13 11:38:20,981 - INFO - 三大法人買賣超資料處理完成：2024-10-11, 總合計 22,133,065,022 元
+2024-10-13 11:38:20,981 - INFO - 開始處理期貨資料...
+2024-10-13 11:38:20,986 - INFO - 期貨資料處理完成：2024-10-11
+2024-10-13 11:38:20,986 - INFO - 開始處理選擇權資料...
+2024-10-13 11:38:20,990 - INFO - 選擇權資料處理完成：2024-10-11
+2024-10-13 11:38:20,990 - INFO - 報告生成完成。
+2024-10-13 11:38:21,945 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-13 11:38:21,946 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-13 11:38:21,946 - INFO - 報告發送完成，準備結束程式...
+2024-10-13 11:38:21,947 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-13 03:38:20 UTC], next run at: 2024-10-13 03:38:20 UTC)" executed successfully
+2024-10-13 11:38:22,672 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-13 11:38:22,673 - INFO - Application is stopping. This might take a moment.
+2024-10-13 11:38:22,673 - INFO - Scheduler has been shut down
+2024-10-13 11:38:22,673 - INFO - Application.stop() complete
+2024-10-13 11:38:22,673 - INFO - Telegram Bot Stopped.
+2024-10-13 15:55:02,848 - INFO - Telegram Bot Starting...
+2024-10-13 15:55:02,864 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-13 15:55:02,865 - INFO - Polling...
+2024-10-13 15:55:03,629 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-13 15:55:03,878 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-13 15:55:03,878 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-13 15:55:03,879 - INFO - Scheduler started
+2024-10-13 15:55:03,879 - INFO - Application started
+2024-10-13 15:55:12,871 - INFO - Removed job e7b193ae172642d198cc98a646728d72
+2024-10-13 15:55:12,871 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-13 07:55:12 UTC], next run at: 2024-10-13 07:55:12 UTC)" (scheduled at 2024-10-13 07:55:12.864408+00:00)
+2024-10-13 15:55:12,871 - INFO - 開始處理 TWSE 資料...
+2024-10-13 15:55:12,873 - INFO - TWSE 資料處理完成：2024-10-11, 成交金額 363,069,518,550 
+2024-10-13 15:55:12,873 - INFO - 開始處理三大法人買賣超資料...
+2024-10-13 15:55:12,883 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-13 15:55:12,888 - INFO - 三大法人買賣超資料處理完成：2024-10-11, 總合計 22,133,065,022 元
+2024-10-13 15:55:12,888 - INFO - 開始處理期貨資料...
+2024-10-13 15:55:12,892 - INFO - 期貨資料處理完成：2024-10-11
+2024-10-13 15:55:12,892 - INFO - 開始處理選擇權資料...
+2024-10-13 15:55:12,896 - INFO - 選擇權資料處理完成：2024-10-11
+2024-10-13 15:55:12,896 - INFO - 報告生成完成。
+2024-10-13 15:55:13,826 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-13 15:55:13,827 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-13 15:55:13,827 - INFO - 報告發送完成，準備結束程式...
+2024-10-13 15:55:13,828 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-13 07:55:12 UTC], next run at: 2024-10-13 07:55:12 UTC)" executed successfully
+2024-10-13 15:55:14,584 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-13 15:55:14,584 - INFO - Application is stopping. This might take a moment.
+2024-10-13 15:55:14,585 - INFO - Scheduler has been shut down
+2024-10-13 15:55:14,585 - INFO - Application.stop() complete
+2024-10-13 15:55:14,585 - INFO - Telegram Bot Stopped.
+2024-10-14 15:55:04,072 - INFO - Telegram Bot Starting...
+2024-10-14 15:55:04,100 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-14 15:55:04,101 - INFO - Polling...
+2024-10-14 15:55:05,192 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-14 15:55:05,434 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-14 15:55:05,435 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-14 15:55:05,435 - INFO - Scheduler started
+2024-10-14 15:55:05,435 - INFO - Application started
+2024-10-14 15:55:14,115 - INFO - Removed job f118430dd8764001808dfa8332d8e7dc
+2024-10-14 15:55:14,115 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-14 07:55:14 UTC], next run at: 2024-10-14 07:55:14 UTC)" (scheduled at 2024-10-14 07:55:14.100257+00:00)
+2024-10-14 15:55:14,115 - INFO - 開始處理 TWSE 資料...
+2024-10-14 15:55:14,143 - INFO - TWSE 資料處理完成：2024-10-11, 成交金額 363,069,518,550 
+2024-10-14 15:55:14,143 - INFO - 開始處理三大法人買賣超資料...
+2024-10-14 15:55:14,210 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-14 15:55:14,215 - INFO - 三大法人買賣超資料處理完成：2024-10-11, 總合計 22,133,065,022 元
+2024-10-14 15:55:14,215 - INFO - 開始處理期貨資料...
+2024-10-14 15:55:14,226 - INFO - 期貨資料處理完成：2024-10-14
+2024-10-14 15:55:14,227 - INFO - 開始處理選擇權資料...
+2024-10-14 15:55:14,238 - INFO - 選擇權資料處理完成：2024-10-14
+2024-10-14 15:55:14,238 - INFO - 報告生成完成。
+2024-10-14 15:55:15,412 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-14 15:55:15,412 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-14 15:55:15,412 - INFO - 報告發送完成，準備結束程式...
+2024-10-14 15:55:15,414 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-14 07:55:14 UTC], next run at: 2024-10-14 07:55:14 UTC)" executed successfully
+2024-10-14 15:55:16,138 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-14 15:55:16,139 - INFO - Application is stopping. This might take a moment.
+2024-10-14 15:55:16,139 - INFO - Scheduler has been shut down
+2024-10-14 15:55:16,139 - INFO - Application.stop() complete
+2024-10-14 15:55:16,139 - INFO - Telegram Bot Stopped.
+2024-10-14 15:56:59,007 - INFO - Telegram Bot Starting...
+2024-10-14 15:56:59,022 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-14 15:56:59,022 - INFO - Polling...
+2024-10-14 15:56:59,795 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-14 15:57:00,059 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-14 15:57:00,060 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-14 15:57:00,060 - INFO - Scheduler started
+2024-10-14 15:57:00,060 - INFO - Application started
+2024-10-14 15:57:09,022 - INFO - Removed job 14d8d028079c49689f1fe53355873998
+2024-10-14 15:57:09,022 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-14 07:57:09 UTC], next run at: 2024-10-14 07:57:09 UTC)" (scheduled at 2024-10-14 07:57:09.021569+00:00)
+2024-10-14 15:57:09,022 - INFO - 開始處理 TWSE 資料...
+2024-10-14 15:57:09,031 - INFO - TWSE 資料處理完成：2024-10-14, 成交金額 320,158,907,367 
+2024-10-14 15:57:09,031 - INFO - 開始處理三大法人買賣超資料...
+2024-10-14 15:57:09,039 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-14 15:57:09,043 - INFO - 三大法人買賣超資料處理完成：2024-10-14, 總合計 3,755,108,439 元
+2024-10-14 15:57:09,043 - INFO - 開始處理期貨資料...
+2024-10-14 15:57:09,047 - INFO - 期貨資料處理完成：2024-10-14
+2024-10-14 15:57:09,047 - INFO - 開始處理選擇權資料...
+2024-10-14 15:57:09,051 - INFO - 選擇權資料處理完成：2024-10-14
+2024-10-14 15:57:09,051 - INFO - 報告生成完成。
+2024-10-14 15:57:09,984 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-14 15:57:09,985 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-14 15:57:09,985 - INFO - 報告發送完成，準備結束程式...
+2024-10-14 15:57:09,987 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-14 07:57:09 UTC], next run at: 2024-10-14 07:57:09 UTC)" executed successfully
+2024-10-14 15:57:10,718 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-14 15:57:10,718 - INFO - Application is stopping. This might take a moment.
+2024-10-14 15:57:10,718 - INFO - Scheduler has been shut down
+2024-10-14 15:57:10,718 - INFO - Application.stop() complete
+2024-10-14 15:57:10,719 - INFO - Telegram Bot Stopped.
+2024-10-15 15:55:04,036 - INFO - Telegram Bot Starting...
+2024-10-15 15:55:04,071 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-15 15:55:04,071 - INFO - Polling...
+2024-10-15 15:55:05,147 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-15 15:55:05,388 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-15 15:55:05,389 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-15 15:55:05,389 - INFO - Scheduler started
+2024-10-15 15:55:05,389 - INFO - Application started
+2024-10-15 15:55:14,086 - INFO - Removed job fc74b2c12e9b404a8d908e10e1b5d7cf
+2024-10-15 15:55:14,086 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-15 07:55:14 UTC], next run at: 2024-10-15 07:55:14 UTC)" (scheduled at 2024-10-15 07:55:14.070160+00:00)
+2024-10-15 15:55:14,086 - INFO - 開始處理 TWSE 資料...
+2024-10-15 15:55:14,094 - INFO - TWSE 資料處理完成：2024-10-15, 成交金額 419,864,034,465 
+2024-10-15 15:55:14,094 - INFO - 開始處理三大法人買賣超資料...
+2024-10-15 15:55:14,137 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-15 15:55:14,142 - INFO - 三大法人買賣超資料處理完成：2024-10-14, 總合計 3,755,108,439 元
+2024-10-15 15:55:14,142 - INFO - 開始處理期貨資料...
+2024-10-15 15:55:14,151 - INFO - 期貨資料處理完成：2024-10-15
+2024-10-15 15:55:14,152 - INFO - 開始處理選擇權資料...
+2024-10-15 15:55:14,160 - INFO - 選擇權資料處理完成：2024-10-15
+2024-10-15 15:55:14,160 - INFO - 報告生成完成。
+2024-10-15 15:55:15,270 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-15 15:55:15,270 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-15 15:55:15,270 - INFO - 報告發送完成，準備結束程式...
+2024-10-15 15:55:15,274 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-15 07:55:14 UTC], next run at: 2024-10-15 07:55:14 UTC)" executed successfully
+2024-10-15 15:55:16,003 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-15 15:55:16,004 - INFO - Application is stopping. This might take a moment.
+2024-10-15 15:55:16,004 - INFO - Scheduler has been shut down
+2024-10-15 15:55:16,004 - INFO - Application.stop() complete
+2024-10-15 15:55:16,004 - INFO - Telegram Bot Stopped.
+2024-10-16 16:58:21,093 - INFO - Telegram Bot Starting...
+2024-10-16 16:58:21,123 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-16 16:58:21,124 - INFO - Polling...
+2024-10-16 16:58:24,636 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-16 16:58:24,882 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-16 16:58:24,883 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-16 16:58:24,883 - INFO - Scheduler started
+2024-10-16 16:58:24,883 - INFO - Application started
+2024-10-16 16:58:31,137 - INFO - Removed job 84f034d87acd42a5a05da686aac7e9f4
+2024-10-16 16:58:31,137 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-16 08:58:31 UTC], next run at: 2024-10-16 08:58:31 UTC)" (scheduled at 2024-10-16 08:58:31.123101+00:00)
+2024-10-16 16:58:31,137 - INFO - 開始處理 TWSE 資料...
+2024-10-16 16:58:31,145 - INFO - TWSE 資料處理完成：2024-10-16, 成交金額 416,895,155,485 
+2024-10-16 16:58:31,145 - INFO - 開始處理三大法人買賣超資料...
+2024-10-16 16:58:31,153 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-16 16:58:31,157 - INFO - 三大法人買賣超資料處理完成：2024-10-16, 總合計 -37,037,813,870 元
+2024-10-16 16:58:31,157 - INFO - 開始處理期貨資料...
+2024-10-16 16:58:31,166 - INFO - 期貨資料處理完成：2024-10-16
+2024-10-16 16:58:31,167 - INFO - 開始處理選擇權資料...
+2024-10-16 16:58:31,176 - INFO - 選擇權資料處理完成：2024-10-16
+2024-10-16 16:58:31,176 - INFO - 報告生成完成。
+2024-10-16 16:58:32,298 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-16 16:58:32,299 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-16 16:58:32,299 - INFO - 報告發送完成，準備結束程式...
+2024-10-16 16:58:32,302 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-16 08:58:31 UTC], next run at: 2024-10-16 08:58:31 UTC)" executed successfully
+2024-10-16 16:58:33,059 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-16 16:58:33,059 - INFO - Application is stopping. This might take a moment.
+2024-10-16 16:58:33,060 - INFO - Scheduler has been shut down
+2024-10-16 16:58:33,060 - INFO - Application.stop() complete
+2024-10-16 16:58:33,060 - INFO - Telegram Bot Stopped.
+2024-10-17 15:55:03,790 - INFO - Telegram Bot Starting...
+2024-10-17 15:55:03,819 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-17 15:55:03,819 - INFO - Polling...
+2024-10-17 15:55:05,067 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-17 15:55:05,315 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-17 15:55:05,316 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-17 15:55:05,316 - INFO - Scheduler started
+2024-10-17 15:55:05,316 - INFO - Application started
+2024-10-17 15:55:13,824 - INFO - Removed job 9a1bf0a4189041b3847306a9029d175f
+2024-10-17 15:55:13,824 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-17 07:55:13 UTC], next run at: 2024-10-17 07:55:13 UTC)" (scheduled at 2024-10-17 07:55:13.818557+00:00)
+2024-10-17 15:55:13,824 - INFO - 開始處理 TWSE 資料...
+2024-10-17 15:55:13,856 - INFO - TWSE 資料處理完成：2024-10-16, 成交金額 416,895,155,485 
+2024-10-17 15:55:13,856 - INFO - 開始處理三大法人買賣超資料...
+2024-10-17 15:55:13,911 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-17 15:55:13,915 - INFO - 三大法人買賣超資料處理完成：2024-10-16, 總合計 -37,037,813,870 元
+2024-10-17 15:55:13,915 - INFO - 開始處理期貨資料...
+2024-10-17 15:55:13,926 - INFO - 期貨資料處理完成：2024-10-17
+2024-10-17 15:55:13,926 - INFO - 開始處理選擇權資料...
+2024-10-17 15:55:13,936 - INFO - 選擇權資料處理完成：2024-10-17
+2024-10-17 15:55:13,936 - INFO - 報告生成完成。
+2024-10-17 15:55:15,137 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-17 15:55:15,137 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-17 15:55:15,137 - INFO - 報告發送完成，準備結束程式...
+2024-10-17 15:55:15,140 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-17 07:55:13 UTC], next run at: 2024-10-17 07:55:13 UTC)" executed successfully
+2024-10-17 15:55:15,974 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-17 15:55:15,974 - INFO - Application is stopping. This might take a moment.
+2024-10-17 15:55:15,974 - INFO - Scheduler has been shut down
+2024-10-17 15:55:15,974 - INFO - Application.stop() complete
+2024-10-17 15:55:15,975 - INFO - Telegram Bot Stopped.
+2024-10-17 15:56:20,445 - INFO - Telegram Bot Starting...
+2024-10-17 15:56:20,461 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-17 15:56:20,461 - INFO - Polling...
+2024-10-17 15:56:21,325 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-17 15:56:21,574 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-17 15:56:21,575 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-17 15:56:21,575 - INFO - Scheduler started
+2024-10-17 15:56:21,575 - INFO - Application started
+2024-10-17 15:56:30,472 - INFO - Removed job 246e652564c741e39fa08b30baa8eeec
+2024-10-17 15:56:30,472 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-17 07:56:30 UTC], next run at: 2024-10-17 07:56:30 UTC)" (scheduled at 2024-10-17 07:56:30.460034+00:00)
+2024-10-17 15:56:30,472 - INFO - 開始處理 TWSE 資料...
+2024-10-17 15:56:30,481 - INFO - TWSE 資料處理完成：2024-10-17, 成交金額 377,906,058,335 
+2024-10-17 15:56:30,481 - INFO - 開始處理三大法人買賣超資料...
+2024-10-17 15:56:30,489 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-17 15:56:30,493 - INFO - 三大法人買賣超資料處理完成：2024-10-17, 總合計 2,865,163,060 元
+2024-10-17 15:56:30,493 - INFO - 開始處理期貨資料...
+2024-10-17 15:56:30,498 - INFO - 期貨資料處理完成：2024-10-17
+2024-10-17 15:56:30,498 - INFO - 開始處理選擇權資料...
+2024-10-17 15:56:30,502 - INFO - 選擇權資料處理完成：2024-10-17
+2024-10-17 15:56:30,502 - INFO - 報告生成完成。
+2024-10-17 15:56:31,420 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-17 15:56:31,421 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-17 15:56:31,421 - INFO - 報告發送完成，準備結束程式...
+2024-10-17 15:56:31,423 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-17 07:56:30 UTC], next run at: 2024-10-17 07:56:30 UTC)" executed successfully
+2024-10-17 15:56:32,173 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-17 15:56:32,173 - INFO - Application is stopping. This might take a moment.
+2024-10-17 15:56:32,174 - INFO - Scheduler has been shut down
+2024-10-17 15:56:32,174 - INFO - Application.stop() complete
+2024-10-17 15:56:32,174 - INFO - Telegram Bot Stopped.
+2024-10-19 15:55:03,857 - INFO - Telegram Bot Starting...
+2024-10-19 15:55:03,873 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-19 15:55:03,873 - INFO - Polling...
+2024-10-19 15:55:05,324 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-19 15:55:05,600 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-19 15:55:05,601 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-19 15:55:05,601 - INFO - Scheduler started
+2024-10-19 15:55:05,601 - INFO - Application started
+2024-10-19 15:55:13,875 - INFO - Removed job 77ad1bd1c7e1437f84a2e762331ef741
+2024-10-19 15:55:13,875 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-19 07:55:13 UTC], next run at: 2024-10-19 07:55:13 UTC)" (scheduled at 2024-10-19 07:55:13.872433+00:00)
+2024-10-19 15:55:13,875 - INFO - 開始處理 TWSE 資料...
+2024-10-19 15:55:13,883 - INFO - TWSE 資料處理完成：2024-10-18, 成交金額 500,413,372,369 
+2024-10-19 15:55:13,883 - INFO - 開始處理三大法人買賣超資料...
+2024-10-19 15:55:13,905 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-19 15:55:13,910 - INFO - 三大法人買賣超資料處理完成：2024-10-17, 總合計 2,865,163,060 元
+2024-10-19 15:55:13,910 - INFO - 開始處理期貨資料...
+2024-10-19 15:55:13,919 - INFO - 期貨資料處理完成：2024-10-18
+2024-10-19 15:55:13,919 - INFO - 開始處理選擇權資料...
+2024-10-19 15:55:13,929 - INFO - 選擇權資料處理完成：2024-10-18
+2024-10-19 15:55:13,929 - INFO - 報告生成完成。
+2024-10-19 15:55:15,131 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-19 15:55:15,132 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-19 15:55:15,132 - INFO - 報告發送完成，準備結束程式...
+2024-10-19 15:55:15,135 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-19 07:55:13 UTC], next run at: 2024-10-19 07:55:13 UTC)" executed successfully
+2024-10-19 15:55:16,015 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-19 15:55:16,016 - INFO - Application is stopping. This might take a moment.
+2024-10-19 15:55:16,016 - INFO - Scheduler has been shut down
+2024-10-19 15:55:16,016 - INFO - Application.stop() complete
+2024-10-19 15:55:16,016 - INFO - Telegram Bot Stopped.
+2024-10-20 15:55:03,540 - INFO - Telegram Bot Starting...
+2024-10-20 15:55:03,558 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-20 15:55:03,558 - INFO - Polling...
+2024-10-20 15:55:04,825 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-20 15:55:05,108 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-20 15:55:05,108 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-20 15:55:05,108 - INFO - Scheduler started
+2024-10-20 15:55:05,108 - INFO - Application started
+2024-10-20 15:55:13,559 - INFO - Removed job d5f21643c96945d5a9384deb474e7724
+2024-10-20 15:55:13,559 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-20 07:55:13 UTC], next run at: 2024-10-20 07:55:13 UTC)" (scheduled at 2024-10-20 07:55:13.557355+00:00)
+2024-10-20 15:55:13,559 - INFO - 開始處理 TWSE 資料...
+2024-10-20 15:55:13,561 - INFO - TWSE 資料處理完成：2024-10-18, 成交金額 500,413,372,369 
+2024-10-20 15:55:13,561 - INFO - 開始處理三大法人買賣超資料...
+2024-10-20 15:55:13,583 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-20 15:55:13,587 - INFO - 三大法人買賣超資料處理完成：2024-10-17, 總合計 2,865,163,060 元
+2024-10-20 15:55:13,587 - INFO - 開始處理期貨資料...
+2024-10-20 15:55:13,592 - INFO - 期貨資料處理完成：2024-10-18
+2024-10-20 15:55:13,592 - INFO - 開始處理選擇權資料...
+2024-10-20 15:55:13,595 - INFO - 選擇權資料處理完成：2024-10-18
+2024-10-20 15:55:13,595 - INFO - 報告生成完成。
+2024-10-20 15:55:15,618 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-20 15:55:15,619 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-20 15:55:15,619 - INFO - 報告發送完成，準備結束程式...
+2024-10-20 15:55:15,620 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-20 07:55:13 UTC], next run at: 2024-10-20 07:55:13 UTC)" executed successfully
+2024-10-20 15:55:16,460 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-20 15:55:16,460 - INFO - Application is stopping. This might take a moment.
+2024-10-20 15:55:16,460 - INFO - Scheduler has been shut down
+2024-10-20 15:55:16,460 - INFO - Application.stop() complete
+2024-10-20 15:55:16,461 - INFO - Telegram Bot Stopped.
+2024-10-21 15:55:03,622 - INFO - Telegram Bot Starting...
+2024-10-21 15:55:03,654 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-21 15:55:03,654 - INFO - Polling...
+2024-10-21 15:55:04,901 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-21 15:55:05,176 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-21 15:55:05,177 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-21 15:55:05,177 - INFO - Scheduler started
+2024-10-21 15:55:05,177 - INFO - Application started
+2024-10-21 15:55:13,682 - INFO - Removed job adbf67a37e0a44d185fb69dd0a4355f1
+2024-10-21 15:55:13,682 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-21 07:55:13 UTC], next run at: 2024-10-21 07:55:13 UTC)" (scheduled at 2024-10-21 07:55:13.653828+00:00)
+2024-10-21 15:55:13,682 - INFO - 開始處理 TWSE 資料...
+2024-10-21 15:55:13,690 - INFO - TWSE 資料處理完成：2024-10-21, 成交金額 358,114,834,250 
+2024-10-21 15:55:13,690 - INFO - 開始處理三大法人買賣超資料...
+2024-10-21 15:55:13,709 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-21 15:55:13,713 - INFO - 三大法人買賣超資料處理完成：2024-10-17, 總合計 2,865,163,060 元
+2024-10-21 15:55:13,713 - INFO - 開始處理期貨資料...
+2024-10-21 15:55:13,723 - INFO - 期貨資料處理完成：2024-10-21
+2024-10-21 15:55:13,723 - INFO - 開始處理選擇權資料...
+2024-10-21 15:55:13,732 - INFO - 選擇權資料處理完成：2024-10-21
+2024-10-21 15:55:13,732 - INFO - 報告生成完成。
+2024-10-21 15:55:15,073 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-21 15:55:15,073 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-21 15:55:15,073 - INFO - 報告發送完成，準備結束程式...
+2024-10-21 15:55:15,076 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-21 07:55:13 UTC], next run at: 2024-10-21 07:55:13 UTC)" executed successfully
+2024-10-21 15:55:15,925 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-21 15:55:15,926 - INFO - Application is stopping. This might take a moment.
+2024-10-21 15:55:15,926 - INFO - Scheduler has been shut down
+2024-10-21 15:55:15,926 - INFO - Application.stop() complete
+2024-10-21 15:55:15,926 - INFO - Telegram Bot Stopped.
+2024-10-21 15:55:56,042 - INFO - Telegram Bot Starting...
+2024-10-21 15:55:56,057 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-21 15:55:56,057 - INFO - Polling...
+2024-10-21 15:55:56,929 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-21 15:55:57,206 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-21 15:55:57,207 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-21 15:55:57,207 - INFO - Scheduler started
+2024-10-21 15:55:57,207 - INFO - Application started
+2024-10-21 15:56:06,064 - INFO - Removed job 485b6e68049f478ab91092fd0479daee
+2024-10-21 15:56:06,064 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-21 07:56:06 UTC], next run at: 2024-10-21 07:56:06 UTC)" (scheduled at 2024-10-21 07:56:06.057687+00:00)
+2024-10-21 15:56:06,064 - INFO - 開始處理 TWSE 資料...
+2024-10-21 15:56:06,066 - INFO - TWSE 資料處理完成：2024-10-21, 成交金額 358,114,834,250 
+2024-10-21 15:56:06,066 - INFO - 開始處理三大法人買賣超資料...
+2024-10-21 15:56:06,075 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-21 15:56:06,080 - INFO - 三大法人買賣超資料處理完成：2024-10-21, 總合計 22,700,974,867 元
+2024-10-21 15:56:06,080 - INFO - 開始處理期貨資料...
+2024-10-21 15:56:06,085 - INFO - 期貨資料處理完成：2024-10-21
+2024-10-21 15:56:06,085 - INFO - 開始處理選擇權資料...
+2024-10-21 15:56:06,089 - INFO - 選擇權資料處理完成：2024-10-21
+2024-10-21 15:56:06,089 - INFO - 報告生成完成。
+2024-10-21 15:56:07,112 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-21 15:56:07,113 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-21 15:56:07,113 - INFO - 報告發送完成，準備結束程式...
+2024-10-21 15:56:07,114 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-21 07:56:06 UTC], next run at: 2024-10-21 07:56:06 UTC)" executed successfully
+2024-10-21 15:56:08,029 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-21 15:56:08,029 - INFO - Application is stopping. This might take a moment.
+2024-10-21 15:56:08,030 - INFO - Scheduler has been shut down
+2024-10-21 15:56:08,030 - INFO - Application.stop() complete
+2024-10-21 15:56:08,030 - INFO - Telegram Bot Stopped.
+2024-10-22 15:55:03,711 - INFO - Telegram Bot Starting...
+2024-10-22 15:55:03,735 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-22 15:55:03,735 - INFO - Polling...
+2024-10-22 15:55:04,970 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-22 15:55:05,235 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-22 15:55:05,236 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-22 15:55:05,236 - INFO - Scheduler started
+2024-10-22 15:55:05,236 - INFO - Application started
+2024-10-22 15:55:13,743 - INFO - Removed job 335655ecd30442b79dc1837a71cce64f
+2024-10-22 15:55:13,743 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-22 07:55:13 UTC], next run at: 2024-10-22 07:55:13 UTC)" (scheduled at 2024-10-22 07:55:13.734792+00:00)
+2024-10-22 15:55:13,743 - INFO - 開始處理 TWSE 資料...
+2024-10-22 15:55:13,767 - INFO - TWSE 資料處理完成：2024-10-21, 成交金額 358,114,834,250 
+2024-10-22 15:55:13,767 - INFO - 開始處理三大法人買賣超資料...
+2024-10-22 15:55:13,793 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-22 15:55:13,797 - INFO - 三大法人買賣超資料處理完成：2024-10-21, 總合計 22,700,974,867 元
+2024-10-22 15:55:13,797 - INFO - 開始處理期貨資料...
+2024-10-22 15:55:13,807 - INFO - 期貨資料處理完成：2024-10-22
+2024-10-22 15:55:13,807 - INFO - 開始處理選擇權資料...
+2024-10-22 15:55:13,816 - INFO - 選擇權資料處理完成：2024-10-22
+2024-10-22 15:55:13,816 - INFO - 報告生成完成。
+2024-10-22 15:55:15,035 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-22 15:55:15,035 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-22 15:55:15,035 - INFO - 報告發送完成，準備結束程式...
+2024-10-22 15:55:15,039 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-22 07:55:13 UTC], next run at: 2024-10-22 07:55:13 UTC)" executed successfully
+2024-10-22 15:55:15,826 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-22 15:55:15,827 - INFO - Application is stopping. This might take a moment.
+2024-10-22 15:55:15,827 - INFO - Scheduler has been shut down
+2024-10-22 15:55:15,827 - INFO - Application.stop() complete
+2024-10-22 15:55:15,828 - INFO - Telegram Bot Stopped.
+2024-10-22 17:40:21,119 - INFO - Telegram Bot Starting...
+2024-10-22 17:40:21,134 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-22 17:40:21,134 - INFO - Polling...
+2024-10-22 17:40:22,116 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-22 17:40:22,406 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-22 17:40:22,407 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-22 17:40:22,407 - INFO - Scheduler started
+2024-10-22 17:40:22,407 - INFO - Application started
+2024-10-22 17:40:31,138 - INFO - Removed job 024d627fe9904bdb8a41686813fa6d2d
+2024-10-22 17:40:31,138 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-22 09:40:31 UTC], next run at: 2024-10-22 09:40:31 UTC)" (scheduled at 2024-10-22 09:40:31.134353+00:00)
+2024-10-22 17:40:31,138 - INFO - 開始處理 TWSE 資料...
+2024-10-22 17:40:31,148 - INFO - TWSE 資料處理完成：2024-10-22, 成交金額 384,278,534,322 
+2024-10-22 17:40:31,148 - INFO - 開始處理三大法人買賣超資料...
+2024-10-22 17:40:31,156 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-22 17:40:31,161 - INFO - 三大法人買賣超資料處理完成：2024-10-22, 總合計 10,003,139,633 元
+2024-10-22 17:40:31,161 - INFO - 開始處理期貨資料...
+2024-10-22 17:40:31,165 - INFO - 期貨資料處理完成：2024-10-22
+2024-10-22 17:40:31,165 - INFO - 開始處理選擇權資料...
+2024-10-22 17:40:31,169 - INFO - 選擇權資料處理完成：2024-10-22
+2024-10-22 17:40:31,169 - INFO - 報告生成完成。
+2024-10-22 17:40:32,195 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-22 17:40:32,195 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-22 17:40:32,195 - INFO - 報告發送完成，準備結束程式...
+2024-10-22 17:40:32,197 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-22 09:40:31 UTC], next run at: 2024-10-22 09:40:31 UTC)" executed successfully
+2024-10-22 17:40:32,995 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-22 17:40:32,996 - INFO - Application is stopping. This might take a moment.
+2024-10-22 17:40:32,996 - INFO - Scheduler has been shut down
+2024-10-22 17:40:32,996 - INFO - Application.stop() complete
+2024-10-22 17:40:32,996 - INFO - Telegram Bot Stopped.
+2024-10-24 00:57:09,198 - INFO - Telegram Bot Starting...
+2024-10-24 00:57:09,229 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-24 00:57:09,229 - INFO - Polling...
+2024-10-24 00:57:10,578 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-24 00:57:10,827 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-24 00:57:10,828 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-24 00:57:10,828 - INFO - Scheduler started
+2024-10-24 00:57:10,828 - INFO - Application started
+2024-10-24 00:57:19,234 - INFO - Removed job 696819be3b03474cb8e59d2c6626d469
+2024-10-24 00:57:19,234 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-23 16:57:19 UTC], next run at: 2024-10-23 16:57:19 UTC)" (scheduled at 2024-10-23 16:57:19.228232+00:00)
+2024-10-24 00:57:19,234 - INFO - 開始處理 TWSE 資料...
+2024-10-24 00:57:19,243 - INFO - TWSE 資料處理完成：2024-10-23, 成交金額 342,072,638,659 
+2024-10-24 00:57:19,243 - INFO - 開始處理三大法人買賣超資料...
+2024-10-24 00:57:19,276 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-24 00:57:19,281 - INFO - 三大法人買賣超資料處理完成：2024-10-22, 總合計 10,003,139,633 元
+2024-10-24 00:57:19,281 - INFO - 開始處理期貨資料...
+2024-10-24 00:57:19,291 - INFO - 期貨資料處理完成：2024-10-23
+2024-10-24 00:57:19,291 - INFO - 開始處理選擇權資料...
+2024-10-24 00:57:19,301 - INFO - 選擇權資料處理完成：2024-10-23
+2024-10-24 00:57:19,301 - INFO - 報告生成完成。
+2024-10-24 00:57:20,399 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-24 00:57:20,400 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-24 00:57:20,400 - INFO - 報告發送完成，準備結束程式...
+2024-10-24 00:57:20,403 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-23 16:57:19 UTC], next run at: 2024-10-23 16:57:19 UTC)" executed successfully
+2024-10-24 00:57:21,150 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-24 00:57:21,150 - INFO - Application is stopping. This might take a moment.
+2024-10-24 00:57:21,150 - INFO - Scheduler has been shut down
+2024-10-24 00:57:21,150 - INFO - Application.stop() complete
+2024-10-24 00:57:21,151 - INFO - Telegram Bot Stopped.
+2024-10-24 15:55:03,810 - INFO - Telegram Bot Starting...
+2024-10-24 15:55:03,838 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-24 15:55:03,838 - INFO - Polling...
+2024-10-24 15:55:04,955 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-24 15:55:05,199 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-24 15:55:05,200 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-24 15:55:05,200 - INFO - Scheduler started
+2024-10-24 15:55:05,200 - INFO - Application started
+2024-10-24 15:55:13,850 - INFO - Removed job b1ec5a1af0c848be831ab2987b469728
+2024-10-24 15:55:13,850 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-24 07:55:13 UTC], next run at: 2024-10-24 07:55:13 UTC)" (scheduled at 2024-10-24 07:55:13.837333+00:00)
+2024-10-24 15:55:13,850 - INFO - 開始處理 TWSE 資料...
+2024-10-24 15:55:13,871 - INFO - TWSE 資料處理完成：2024-10-23, 成交金額 342,072,638,659 
+2024-10-24 15:55:13,871 - INFO - 開始處理三大法人買賣超資料...
+2024-10-24 15:55:13,911 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-24 15:55:13,915 - INFO - 三大法人買賣超資料處理完成：2024-10-22, 總合計 10,003,139,633 元
+2024-10-24 15:55:13,915 - INFO - 開始處理期貨資料...
+2024-10-24 15:55:13,925 - INFO - 期貨資料處理完成：2024-10-24
+2024-10-24 15:55:13,925 - INFO - 開始處理選擇權資料...
+2024-10-24 15:55:13,935 - INFO - 選擇權資料處理完成：2024-10-24
+2024-10-24 15:55:13,935 - INFO - 報告生成完成。
+2024-10-24 15:55:15,091 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-24 15:55:15,092 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-24 15:55:15,092 - INFO - 報告發送完成，準備結束程式...
+2024-10-24 15:55:15,094 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-24 07:55:13 UTC], next run at: 2024-10-24 07:55:13 UTC)" executed successfully
+2024-10-24 15:55:15,832 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-24 15:55:15,832 - INFO - Application is stopping. This might take a moment.
+2024-10-24 15:55:15,832 - INFO - Scheduler has been shut down
+2024-10-24 15:55:15,832 - INFO - Application.stop() complete
+2024-10-24 15:55:15,833 - INFO - Telegram Bot Stopped.
+2024-10-24 16:35:26,496 - INFO - Telegram Bot Starting...
+2024-10-24 16:35:26,513 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-24 16:35:26,513 - INFO - Polling...
+2024-10-24 16:35:27,765 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-24 16:35:28,634 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-24 16:35:28,635 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-24 16:35:28,635 - INFO - Scheduler started
+2024-10-24 16:35:28,635 - INFO - Application started
+2024-10-24 16:35:36,528 - INFO - Removed job 16d01b804ade4481983f0b80d43d1b52
+2024-10-24 16:35:36,528 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-24 08:35:36 UTC], next run at: 2024-10-24 08:35:36 UTC)" (scheduled at 2024-10-24 08:35:36.512251+00:00)
+2024-10-24 16:35:36,528 - INFO - 開始處理 TWSE 資料...
+2024-10-24 16:35:36,537 - INFO - TWSE 資料處理完成：2024-10-24, 成交金額 372,065,897,873 
+2024-10-24 16:35:36,537 - INFO - 開始處理三大法人買賣超資料...
+2024-10-24 16:35:36,546 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-24 16:35:36,550 - INFO - 三大法人買賣超資料處理完成：2024-10-24, 總合計 -15,004,385,690 元
+2024-10-24 16:35:36,550 - INFO - 開始處理期貨資料...
+2024-10-24 16:35:36,554 - INFO - 期貨資料處理完成：2024-10-24
+2024-10-24 16:35:36,554 - INFO - 開始處理選擇權資料...
+2024-10-24 16:35:36,558 - INFO - 選擇權資料處理完成：2024-10-24
+2024-10-24 16:35:36,558 - INFO - 報告生成完成。
+2024-10-24 16:35:39,202 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-24 16:35:39,203 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-24 16:35:39,203 - INFO - 報告發送完成，準備結束程式...
+2024-10-24 16:35:39,205 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-24 08:35:36 UTC], next run at: 2024-10-24 08:35:36 UTC)" executed successfully
+2024-10-24 16:35:39,957 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-24 16:35:39,957 - INFO - Application is stopping. This might take a moment.
+2024-10-24 16:35:39,957 - INFO - Scheduler has been shut down
+2024-10-24 16:35:39,957 - INFO - Application.stop() complete
+2024-10-24 16:35:39,958 - INFO - Telegram Bot Stopped.
+2024-10-26 15:55:04,006 - INFO - Telegram Bot Starting...
+2024-10-26 15:55:04,036 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-26 15:55:04,036 - INFO - Polling...
+2024-10-26 15:55:05,123 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-26 15:55:05,366 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-26 15:55:05,366 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-26 15:55:05,366 - INFO - Scheduler started
+2024-10-26 15:55:05,367 - INFO - Application started
+2024-10-26 15:55:14,048 - INFO - Removed job 93bb7eba0477417285daeeadd59bc1e8
+2024-10-26 15:55:14,048 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-26 07:55:14 UTC], next run at: 2024-10-26 07:55:14 UTC)" (scheduled at 2024-10-26 07:55:14.034559+00:00)
+2024-10-26 15:55:14,048 - INFO - 開始處理 TWSE 資料...
+2024-10-26 15:55:14,056 - INFO - TWSE 資料處理完成：2024-10-25, 成交金額 307,350,881,464 
+2024-10-26 15:55:14,056 - INFO - 開始處理三大法人買賣超資料...
+2024-10-26 15:55:14,064 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-26 15:55:14,068 - INFO - 三大法人買賣超資料處理完成：2024-10-24, 總合計 -15,004,385,690 元
+2024-10-26 15:55:14,068 - INFO - 開始處理期貨資料...
+2024-10-26 15:55:14,078 - INFO - 期貨資料處理完成：2024-10-25
+2024-10-26 15:55:14,078 - INFO - 開始處理選擇權資料...
+2024-10-26 15:55:14,087 - INFO - 選擇權資料處理完成：2024-10-25
+2024-10-26 15:55:14,087 - INFO - 報告生成完成。
+2024-10-26 15:55:15,202 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-26 15:55:15,202 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-26 15:55:15,202 - INFO - 報告發送完成，準備結束程式...
+2024-10-26 15:55:15,204 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-26 07:55:14 UTC], next run at: 2024-10-26 07:55:14 UTC)" executed successfully
+2024-10-26 15:55:15,966 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-26 15:55:15,966 - INFO - Application is stopping. This might take a moment.
+2024-10-26 15:55:15,966 - INFO - Scheduler has been shut down
+2024-10-26 15:55:15,966 - INFO - Application.stop() complete
+2024-10-26 15:55:15,967 - INFO - Telegram Bot Stopped.
+2024-10-26 15:55:42,262 - INFO - Telegram Bot Starting...
+2024-10-26 15:55:42,280 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-26 15:55:42,280 - INFO - Polling...
+2024-10-26 15:55:43,041 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-26 15:55:43,316 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-26 15:55:43,316 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-26 15:55:43,316 - INFO - Scheduler started
+2024-10-26 15:55:43,316 - INFO - Application started
+2024-10-26 15:55:52,294 - INFO - Removed job d13d04378a1444688c4260d75b59f8cb
+2024-10-26 15:55:52,294 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-26 07:55:52 UTC], next run at: 2024-10-26 07:55:52 UTC)" (scheduled at 2024-10-26 07:55:52.279247+00:00)
+2024-10-26 15:55:52,294 - INFO - 開始處理 TWSE 資料...
+2024-10-26 15:55:52,296 - INFO - TWSE 資料處理完成：2024-10-25, 成交金額 307,350,881,464 
+2024-10-26 15:55:52,296 - INFO - 開始處理三大法人買賣超資料...
+2024-10-26 15:55:52,299 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-26 15:55:52,303 - INFO - 三大法人買賣超資料處理完成：2024-10-24, 總合計 -15,004,385,690 元
+2024-10-26 15:55:52,303 - INFO - 開始處理期貨資料...
+2024-10-26 15:55:52,307 - INFO - 期貨資料處理完成：2024-10-25
+2024-10-26 15:55:52,307 - INFO - 開始處理選擇權資料...
+2024-10-26 15:55:52,311 - INFO - 選擇權資料處理完成：2024-10-25
+2024-10-26 15:55:52,311 - INFO - 報告生成完成。
+2024-10-26 15:55:53,240 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-26 15:55:53,240 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-26 15:55:53,241 - INFO - 報告發送完成，準備結束程式...
+2024-10-26 15:55:53,242 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-26 07:55:52 UTC], next run at: 2024-10-26 07:55:52 UTC)" executed successfully
+2024-10-26 15:55:53,966 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-26 15:55:53,966 - INFO - Application is stopping. This might take a moment.
+2024-10-26 15:55:53,967 - INFO - Scheduler has been shut down
+2024-10-26 15:55:53,967 - INFO - Application.stop() complete
+2024-10-26 15:55:53,967 - INFO - Telegram Bot Stopped.
+2024-10-26 15:56:37,969 - INFO - Telegram Bot Starting...
+2024-10-26 15:56:37,984 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-26 15:56:37,985 - INFO - Polling...
+2024-10-26 15:56:38,808 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-26 15:56:39,053 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-26 15:56:39,054 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-26 15:56:39,054 - INFO - Scheduler started
+2024-10-26 15:56:39,054 - INFO - Application started
+2024-10-26 15:56:47,996 - INFO - Removed job 1d0a680e2c184d49b4ad9de0467545ca
+2024-10-26 15:56:47,996 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-26 07:56:47 UTC], next run at: 2024-10-26 07:56:47 UTC)" (scheduled at 2024-10-26 07:56:47.984461+00:00)
+2024-10-26 15:56:47,996 - INFO - 開始處理 TWSE 資料...
+2024-10-26 15:56:47,998 - INFO - TWSE 資料處理完成：2024-10-25, 成交金額 307,350,881,464 
+2024-10-26 15:56:47,998 - INFO - 開始處理三大法人買賣超資料...
+2024-10-26 15:56:48,007 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-26 15:56:48,011 - INFO - 三大法人買賣超資料處理完成：2024-10-25, 總合計 17,229,057,000 元
+2024-10-26 15:56:48,011 - INFO - 開始處理期貨資料...
+2024-10-26 15:56:48,016 - INFO - 期貨資料處理完成：2024-10-25
+2024-10-26 15:56:48,016 - INFO - 開始處理選擇權資料...
+2024-10-26 15:56:48,020 - INFO - 選擇權資料處理完成：2024-10-25
+2024-10-26 15:56:48,020 - INFO - 報告生成完成。
+2024-10-26 15:56:48,952 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-26 15:56:48,953 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-26 15:56:48,953 - INFO - 報告發送完成，準備結束程式...
+2024-10-26 15:56:48,954 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-26 07:56:47 UTC], next run at: 2024-10-26 07:56:47 UTC)" executed successfully
+2024-10-26 15:56:49,706 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-26 15:56:49,706 - INFO - Application is stopping. This might take a moment.
+2024-10-26 15:56:49,707 - INFO - Scheduler has been shut down
+2024-10-26 15:56:49,707 - INFO - Application.stop() complete
+2024-10-26 15:56:49,707 - INFO - Telegram Bot Stopped.
+2024-10-27 15:55:03,901 - INFO - Telegram Bot Starting...
+2024-10-27 15:55:03,917 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-27 15:55:03,917 - INFO - Polling...
+2024-10-27 15:55:05,021 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-27 15:55:05,272 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-27 15:55:05,273 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-27 15:55:05,273 - INFO - Scheduler started
+2024-10-27 15:55:05,273 - INFO - Application started
+2024-10-27 15:55:13,919 - INFO - Removed job 184778e2e9064104b213ef0164e238e6
+2024-10-27 15:55:13,919 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-27 07:55:13 UTC], next run at: 2024-10-27 07:55:13 UTC)" (scheduled at 2024-10-27 07:55:13.916734+00:00)
+2024-10-27 15:55:13,919 - INFO - 開始處理 TWSE 資料...
+2024-10-27 15:55:13,921 - INFO - TWSE 資料處理完成：2024-10-25, 成交金額 307,350,881,464 
+2024-10-27 15:55:13,921 - INFO - 開始處理三大法人買賣超資料...
+2024-10-27 15:55:13,958 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-27 15:55:13,963 - INFO - 三大法人買賣超資料處理完成：2024-10-25, 總合計 17,229,057,000 元
+2024-10-27 15:55:13,963 - INFO - 開始處理期貨資料...
+2024-10-27 15:55:13,968 - INFO - 期貨資料處理完成：2024-10-25
+2024-10-27 15:55:13,968 - INFO - 開始處理選擇權資料...
+2024-10-27 15:55:13,972 - INFO - 選擇權資料處理完成：2024-10-25
+2024-10-27 15:55:13,972 - INFO - 報告生成完成。
+2024-10-27 15:55:15,085 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-27 15:55:15,086 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-27 15:55:15,086 - INFO - 報告發送完成，準備結束程式...
+2024-10-27 15:55:15,088 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-27 07:55:13 UTC], next run at: 2024-10-27 07:55:13 UTC)" executed successfully
+2024-10-27 15:55:15,819 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-27 15:55:15,820 - INFO - Application is stopping. This might take a moment.
+2024-10-27 15:55:15,820 - INFO - Scheduler has been shut down
+2024-10-27 15:55:15,820 - INFO - Application.stop() complete
+2024-10-27 15:55:15,820 - INFO - Telegram Bot Stopped.
+2024-10-28 15:55:03,776 - INFO - Telegram Bot Starting...
+2024-10-28 15:55:03,805 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-28 15:55:03,805 - INFO - Polling...
+2024-10-28 15:55:04,946 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-28 15:55:05,191 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-28 15:55:05,192 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-28 15:55:05,192 - INFO - Scheduler started
+2024-10-28 15:55:05,192 - INFO - Application started
+2024-10-28 15:55:13,822 - INFO - Removed job 8e18d44301ab4bb6a44c74060c5b11bb
+2024-10-28 15:55:13,822 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-28 07:55:13 UTC], next run at: 2024-10-28 07:55:13 UTC)" (scheduled at 2024-10-28 07:55:13.804832+00:00)
+2024-10-28 15:55:13,822 - INFO - 開始處理 TWSE 資料...
+2024-10-28 15:55:13,824 - INFO - TWSE 資料處理完成：2024-10-28, 成交金額 334,079,060,832 
+2024-10-28 15:55:13,824 - INFO - 開始處理三大法人買賣超資料...
+2024-10-28 15:55:13,827 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-28 15:55:13,831 - INFO - 三大法人買賣超資料處理完成：2024-10-28, 總合計 5,771,723,490 元
+2024-10-28 15:55:13,831 - INFO - 開始處理期貨資料...
+2024-10-28 15:55:13,836 - INFO - 期貨資料處理完成：2024-10-28
+2024-10-28 15:55:13,836 - INFO - 開始處理選擇權資料...
+2024-10-28 15:55:13,840 - INFO - 選擇權資料處理完成：2024-10-28
+2024-10-28 15:55:13,840 - INFO - 報告生成完成。
+2024-10-28 15:55:15,033 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-28 15:55:15,033 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-28 15:55:15,033 - INFO - 報告發送完成，準備結束程式...
+2024-10-28 15:55:15,035 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-28 07:55:13 UTC], next run at: 2024-10-28 07:55:13 UTC)" executed successfully
+2024-10-28 15:55:15,765 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-28 15:55:15,765 - INFO - Application is stopping. This might take a moment.
+2024-10-28 15:55:15,766 - INFO - Scheduler has been shut down
+2024-10-28 15:55:15,766 - INFO - Application.stop() complete
+2024-10-28 15:55:15,766 - INFO - Telegram Bot Stopped.
+2024-10-29 22:41:13,443 - INFO - Telegram Bot Starting...
+2024-10-29 22:41:13,480 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-29 22:41:13,480 - INFO - Polling...
+2024-10-29 22:41:14,583 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-29 22:41:14,828 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-29 22:41:14,829 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-29 22:41:14,829 - INFO - Scheduler started
+2024-10-29 22:41:14,829 - INFO - Application started
+2024-10-29 22:41:23,492 - INFO - Removed job 0f38a4be060549fe86b13c0ebd0909fa
+2024-10-29 22:41:23,492 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-29 14:41:23 UTC], next run at: 2024-10-29 14:41:23 UTC)" (scheduled at 2024-10-29 14:41:23.479086+00:00)
+2024-10-29 22:41:23,492 - INFO - 開始處理 TWSE 資料...
+2024-10-29 22:41:23,501 - INFO - TWSE 資料處理完成：2024-10-29, 成交金額 351,602,688,612 
+2024-10-29 22:41:23,501 - INFO - 開始處理三大法人買賣超資料...
+2024-10-29 22:41:23,509 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-29 22:41:23,513 - INFO - 三大法人買賣超資料處理完成：2024-10-29, 總合計 -39,603,526,347 元
+2024-10-29 22:41:23,513 - INFO - 開始處理期貨資料...
+2024-10-29 22:41:23,524 - INFO - 期貨資料處理完成：2024-10-29
+2024-10-29 22:41:23,524 - INFO - 開始處理選擇權資料...
+2024-10-29 22:41:23,533 - INFO - 選擇權資料處理完成：2024-10-29
+2024-10-29 22:41:23,533 - INFO - 報告生成完成。
+2024-10-29 22:41:24,675 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-29 22:41:24,676 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-29 22:41:24,676 - INFO - 報告發送完成，準備結束程式...
+2024-10-29 22:41:24,680 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-29 14:41:23 UTC], next run at: 2024-10-29 14:41:23 UTC)" executed successfully
+2024-10-29 22:41:25,425 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-29 22:41:25,426 - INFO - Application is stopping. This might take a moment.
+2024-10-29 22:41:25,426 - INFO - Scheduler has been shut down
+2024-10-29 22:41:25,426 - INFO - Application.stop() complete
+2024-10-29 22:41:25,426 - INFO - Telegram Bot Stopped.
+2024-10-31 15:55:03,967 - INFO - Telegram Bot Starting...
+2024-10-31 15:55:03,992 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-31 15:55:03,992 - INFO - Polling...
+2024-10-31 15:55:05,343 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-10-31 15:55:05,614 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-10-31 15:55:05,615 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-10-31 15:55:05,615 - INFO - Scheduler started
+2024-10-31 15:55:05,615 - INFO - Application started
+2024-10-31 15:55:14,013 - INFO - Removed job 2173f9bb5328430099614e5fd6d6d9a6
+2024-10-31 15:55:14,013 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-10-31 07:55:13 UTC], next run at: 2024-10-31 07:55:13 UTC)" (scheduled at 2024-10-31 07:55:13.991229+00:00)
+2024-10-31 15:55:14,013 - INFO - 開始處理 TWSE 資料...
+2024-10-31 15:55:14,040 - INFO - TWSE 資料處理完成：2024-10-29, 成交金額 351,602,688,612 
+2024-10-31 15:55:14,040 - INFO - 開始處理三大法人買賣超資料...
+2024-10-31 15:55:14,082 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-10-31 15:55:14,086 - INFO - 三大法人買賣超資料處理完成：2024-10-29, 總合計 -39,603,526,347 元
+2024-10-31 15:55:14,086 - INFO - 開始處理期貨資料...
+2024-10-31 15:55:14,097 - INFO - 期貨資料處理完成：2024-10-30
+2024-10-31 15:55:14,097 - INFO - 開始處理選擇權資料...
+2024-10-31 15:55:14,106 - INFO - 選擇權資料處理完成：2024-10-30
+2024-10-31 15:55:14,106 - INFO - 報告生成完成。
+2024-10-31 15:55:15,341 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-10-31 15:55:15,342 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-10-31 15:55:15,342 - INFO - 報告發送完成，準備結束程式...
+2024-10-31 15:55:15,343 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-10-31 07:55:13 UTC], next run at: 2024-10-31 07:55:13 UTC)" executed successfully
+2024-10-31 15:55:16,117 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-10-31 15:55:16,117 - INFO - Application is stopping. This might take a moment.
+2024-10-31 15:55:16,117 - INFO - Scheduler has been shut down
+2024-10-31 15:55:16,117 - INFO - Application.stop() complete
+2024-10-31 15:55:16,118 - INFO - Telegram Bot Stopped.
+2024-11-04 15:55:04,187 - INFO - Telegram Bot Starting...
+2024-11-04 15:55:04,217 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-04 15:55:04,217 - INFO - Polling...
+2024-11-04 15:55:05,513 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-04 15:55:05,763 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-04 15:55:05,764 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-04 15:55:05,764 - INFO - Scheduler started
+2024-11-04 15:55:05,764 - INFO - Application started
+2024-11-04 15:55:14,228 - INFO - Removed job 2cd9390043b04d78b98f111316f3fc9b
+2024-11-04 15:55:14,228 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-04 07:55:14 UTC], next run at: 2024-11-04 07:55:14 UTC)" (scheduled at 2024-11-04 07:55:14.216447+00:00)
+2024-11-04 15:55:14,228 - INFO - 開始處理 TWSE 資料...
+2024-11-04 15:55:14,240 - INFO - TWSE 資料處理完成：2024-11-04, 成交金額 316,743,569,682 
+2024-11-04 15:55:14,240 - INFO - 開始處理三大法人買賣超資料...
+2024-11-04 15:55:14,251 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-04 15:55:14,256 - INFO - 三大法人買賣超資料處理完成：2024-10-29, 總合計 -39,603,526,347 元
+2024-11-04 15:55:14,256 - INFO - 開始處理期貨資料...
+2024-11-04 15:55:14,271 - INFO - 期貨資料處理完成：2024-11-04
+2024-11-04 15:55:14,271 - INFO - 開始處理選擇權資料...
+2024-11-04 15:55:14,282 - INFO - 選擇權資料處理完成：2024-11-04
+2024-11-04 15:55:14,282 - INFO - 報告生成完成。
+2024-11-04 15:55:15,496 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-04 15:55:15,496 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-04 15:55:15,496 - INFO - 報告發送完成，準備結束程式...
+2024-11-04 15:55:15,498 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-04 07:55:14 UTC], next run at: 2024-11-04 07:55:14 UTC)" executed successfully
+2024-11-04 15:55:16,224 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-04 15:55:16,225 - INFO - Application is stopping. This might take a moment.
+2024-11-04 15:55:16,225 - INFO - Scheduler has been shut down
+2024-11-04 15:55:16,225 - INFO - Application.stop() complete
+2024-11-04 15:55:16,225 - INFO - Telegram Bot Stopped.
+2024-11-05 15:55:03,795 - INFO - Telegram Bot Starting...
+2024-11-05 15:55:03,827 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-05 15:55:03,827 - INFO - Polling...
+2024-11-05 15:55:05,198 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-05 15:55:05,449 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-05 15:55:05,450 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-05 15:55:05,450 - INFO - Scheduler started
+2024-11-05 15:55:05,450 - INFO - Application started
+2024-11-05 15:55:13,837 - INFO - Removed job 42ad8b4e949e42eea1c8336d2131f7a8
+2024-11-05 15:55:13,837 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-05 07:55:13 UTC], next run at: 2024-11-05 07:55:13 UTC)" (scheduled at 2024-11-05 07:55:13.826402+00:00)
+2024-11-05 15:55:13,837 - INFO - 開始處理 TWSE 資料...
+2024-11-05 15:55:13,856 - INFO - TWSE 資料處理完成：2024-11-04, 成交金額 316,743,569,682 
+2024-11-05 15:55:13,856 - INFO - 開始處理三大法人買賣超資料...
+2024-11-05 15:55:13,877 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-05 15:55:13,881 - INFO - 三大法人買賣超資料處理完成：2024-10-29, 總合計 -39,603,526,347 元
+2024-11-05 15:55:13,881 - INFO - 開始處理期貨資料...
+2024-11-05 15:55:13,891 - INFO - 期貨資料處理完成：2024-11-05
+2024-11-05 15:55:13,891 - INFO - 開始處理選擇權資料...
+2024-11-05 15:55:13,908 - INFO - 選擇權資料處理完成：2024-11-05
+2024-11-05 15:55:13,908 - INFO - 報告生成完成。
+2024-11-05 15:55:15,036 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-05 15:55:15,036 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-05 15:55:15,037 - INFO - 報告發送完成，準備結束程式...
+2024-11-05 15:55:15,038 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-05 07:55:13 UTC], next run at: 2024-11-05 07:55:13 UTC)" executed successfully
+2024-11-05 15:55:15,794 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-05 15:55:15,795 - INFO - Application is stopping. This might take a moment.
+2024-11-05 15:55:15,795 - INFO - Scheduler has been shut down
+2024-11-05 15:55:15,795 - INFO - Application.stop() complete
+2024-11-05 15:55:15,795 - INFO - Telegram Bot Stopped.
+2024-11-05 15:58:07,050 - INFO - Telegram Bot Starting...
+2024-11-05 15:58:07,064 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-05 15:58:07,064 - INFO - Polling...
+2024-11-05 15:58:07,823 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-05 15:58:08,067 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-05 15:58:08,068 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-05 15:58:08,068 - INFO - Scheduler started
+2024-11-05 15:58:08,068 - INFO - Application started
+2024-11-05 15:58:17,071 - INFO - Removed job faa60af4e1e84f9e9915b5a3558a25e4
+2024-11-05 15:58:17,071 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-05 07:58:17 UTC], next run at: 2024-11-05 07:58:17 UTC)" (scheduled at 2024-11-05 07:58:17.064544+00:00)
+2024-11-05 15:58:17,071 - INFO - 開始處理 TWSE 資料...
+2024-11-05 15:58:17,073 - INFO - TWSE 資料處理完成：2024-11-05, 成交金額 333,399,423,603 
+2024-11-05 15:58:17,073 - INFO - 開始處理三大法人買賣超資料...
+2024-11-05 15:58:17,077 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-05 15:58:17,081 - INFO - 三大法人買賣超資料處理完成：2024-11-05, 總合計 9,225,981,535 元
+2024-11-05 15:58:17,081 - INFO - 開始處理期貨資料...
+2024-11-05 15:58:17,084 - INFO - 期貨資料處理完成：2024-11-05
+2024-11-05 15:58:17,084 - INFO - 開始處理選擇權資料...
+2024-11-05 15:58:17,089 - INFO - 選擇權資料處理完成：2024-11-05
+2024-11-05 15:58:17,089 - INFO - 報告生成完成。
+2024-11-05 15:58:18,250 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-05 15:58:18,250 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-05 15:58:18,250 - INFO - 報告發送完成，準備結束程式...
+2024-11-05 15:58:18,252 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-05 07:58:17 UTC], next run at: 2024-11-05 07:58:17 UTC)" executed successfully
+2024-11-05 15:58:18,993 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-05 15:58:18,993 - INFO - Application is stopping. This might take a moment.
+2024-11-05 15:58:18,993 - INFO - Scheduler has been shut down
+2024-11-05 15:58:18,993 - INFO - Application.stop() complete
+2024-11-05 15:58:18,994 - INFO - Telegram Bot Stopped.
+2024-11-07 17:15:34,616 - INFO - Telegram Bot Starting...
+2024-11-07 17:15:34,641 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-07 17:15:34,641 - INFO - Polling...
+2024-11-07 17:15:35,917 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-07 17:15:36,170 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-07 17:15:36,171 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-07 17:15:36,171 - INFO - Scheduler started
+2024-11-07 17:15:36,171 - INFO - Application started
+2024-11-07 17:15:44,649 - INFO - Removed job 88d96b9adeb84fcf9193b853c4ae393b
+2024-11-07 17:15:44,649 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-07 09:15:44 UTC], next run at: 2024-11-07 09:15:44 UTC)" (scheduled at 2024-11-07 09:15:44.640740+00:00)
+2024-11-07 17:15:44,649 - INFO - 開始處理 TWSE 資料...
+2024-11-07 17:15:44,658 - INFO - TWSE 資料處理完成：2024-11-07, 成交金額 433,104,923,764 
+2024-11-07 17:15:44,658 - INFO - 開始處理三大法人買賣超資料...
+2024-11-07 17:15:44,666 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-07 17:15:44,671 - INFO - 三大法人買賣超資料處理完成：2024-11-07, 總合計 13,165,743,386 元
+2024-11-07 17:15:44,671 - INFO - 開始處理期貨資料...
+2024-11-07 17:15:44,683 - INFO - 期貨資料處理完成：2024-11-07
+2024-11-07 17:15:44,683 - INFO - 開始處理選擇權資料...
+2024-11-07 17:15:44,700 - INFO - 選擇權資料處理完成：2024-11-07
+2024-11-07 17:15:44,700 - INFO - 報告生成完成。
+2024-11-07 17:15:45,840 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-07 17:15:45,840 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-07 17:15:45,840 - INFO - 報告發送完成，準備結束程式...
+2024-11-07 17:15:45,844 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-07 09:15:44 UTC], next run at: 2024-11-07 09:15:44 UTC)" executed successfully
+2024-11-07 17:15:46,597 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-07 17:15:46,597 - INFO - Application is stopping. This might take a moment.
+2024-11-07 17:15:46,597 - INFO - Scheduler has been shut down
+2024-11-07 17:15:46,597 - INFO - Application.stop() complete
+2024-11-07 17:15:46,598 - INFO - Telegram Bot Stopped.
+2024-11-08 20:36:19,984 - INFO - Telegram Bot Starting...
+2024-11-08 20:36:20,012 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 20:36:20,012 - INFO - Polling...
+2024-11-08 20:36:21,115 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-08 20:36:21,360 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-08 20:36:21,361 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-08 20:36:21,361 - INFO - Scheduler started
+2024-11-08 20:36:21,361 - INFO - Application started
+2024-11-08 20:36:30,032 - INFO - Removed job afc3e7fc34d04eb69863e390d7907c85
+2024-11-08 20:36:30,032 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-08 12:36:30 UTC], next run at: 2024-11-08 12:36:30 UTC)" (scheduled at 2024-11-08 12:36:30.011901+00:00)
+2024-11-08 20:36:30,032 - INFO - 開始處理 TWSE 資料...
+2024-11-08 20:36:30,041 - INFO - TWSE 資料處理完成：2024-11-08, 成交金額 431,921,730,932 
+2024-11-08 20:36:30,041 - INFO - 開始處理三大法人買賣超資料...
+2024-11-08 20:36:30,050 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-08 20:36:30,054 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-08 20:36:30,054 - INFO - 開始處理期貨資料...
+2024-11-08 20:36:30,064 - INFO - 期貨資料處理完成：2024-11-08
+2024-11-08 20:36:30,064 - INFO - 開始處理選擇權資料...
+2024-11-08 20:36:30,074 - INFO - 選擇權資料處理完成：2024-11-08
+2024-11-08 20:36:30,074 - INFO - 報告生成完成。
+2024-11-08 20:36:31,204 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-08 20:36:31,205 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-08 20:36:31,205 - INFO - 報告發送完成，準備結束程式...
+2024-11-08 20:36:31,207 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-08 12:36:30 UTC], next run at: 2024-11-08 12:36:30 UTC)" executed successfully
+2024-11-08 20:36:31,965 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-08 20:36:31,966 - INFO - Application is stopping. This might take a moment.
+2024-11-08 20:36:31,966 - INFO - Scheduler has been shut down
+2024-11-08 20:36:31,966 - INFO - Application.stop() complete
+2024-11-08 20:36:31,966 - INFO - Telegram Bot Stopped.
+2024-11-09 15:55:03,732 - INFO - Telegram Bot Starting...
+2024-11-09 15:55:03,757 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-09 15:55:03,757 - INFO - Polling...
+2024-11-09 15:55:04,886 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-09 15:55:05,137 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-09 15:55:05,138 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-09 15:55:05,138 - INFO - Scheduler started
+2024-11-09 15:55:05,138 - INFO - Application started
+2024-11-09 15:55:13,767 - INFO - Removed job 0337507c00b641d086a1fb49bc9b63c2
+2024-11-09 15:55:13,767 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-09 07:55:13 UTC], next run at: 2024-11-09 07:55:13 UTC)" (scheduled at 2024-11-09 07:55:13.756182+00:00)
+2024-11-09 15:55:13,767 - INFO - 開始處理 TWSE 資料...
+2024-11-09 15:55:13,799 - INFO - TWSE 資料處理完成：2024-11-08, 成交金額 431,921,730,932 
+2024-11-09 15:55:13,799 - INFO - 開始處理三大法人買賣超資料...
+2024-11-09 15:55:13,832 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-09 15:55:13,836 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-09 15:55:13,836 - INFO - 開始處理期貨資料...
+2024-11-09 15:55:13,840 - INFO - 期貨資料處理完成：2024-11-08
+2024-11-09 15:55:13,840 - INFO - 開始處理選擇權資料...
+2024-11-09 15:55:13,845 - INFO - 選擇權資料處理完成：2024-11-08
+2024-11-09 15:55:13,845 - INFO - 報告生成完成。
+2024-11-09 15:55:15,147 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-09 15:55:15,147 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-09 15:55:15,148 - INFO - 報告發送完成，準備結束程式...
+2024-11-09 15:55:15,149 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-09 07:55:13 UTC], next run at: 2024-11-09 07:55:13 UTC)" executed successfully
+2024-11-09 15:55:15,878 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-09 15:55:15,879 - INFO - Application is stopping. This might take a moment.
+2024-11-09 15:55:15,879 - INFO - Scheduler has been shut down
+2024-11-09 15:55:15,879 - INFO - Application.stop() complete
+2024-11-09 15:55:15,879 - INFO - Telegram Bot Stopped.
+2024-11-10 15:55:04,841 - INFO - Telegram Bot Starting...
+2024-11-10 15:55:04,881 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-10 15:55:04,881 - INFO - Polling...
+2024-11-10 15:55:06,073 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-10 15:55:06,321 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-10 15:55:06,322 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-10 15:55:06,322 - INFO - Scheduler started
+2024-11-10 15:55:06,322 - INFO - Application started
+2024-11-10 15:55:14,886 - INFO - Removed job a478c9ffb28f40918a973d019cbe2f7b
+2024-11-10 15:55:14,886 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-10 07:55:14 UTC], next run at: 2024-11-10 07:55:14 UTC)" (scheduled at 2024-11-10 07:55:14.880616+00:00)
+2024-11-10 15:55:14,886 - INFO - 開始處理 TWSE 資料...
+2024-11-10 15:55:14,911 - INFO - TWSE 資料處理完成：2024-11-08, 成交金額 431,921,730,932 
+2024-11-10 15:55:14,911 - INFO - 開始處理三大法人買賣超資料...
+2024-11-10 15:55:14,931 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-10 15:55:14,936 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-10 15:55:14,936 - INFO - 開始處理期貨資料...
+2024-11-10 15:55:14,945 - INFO - 期貨資料處理完成：2024-11-08
+2024-11-10 15:55:14,945 - INFO - 開始處理選擇權資料...
+2024-11-10 15:55:14,956 - INFO - 選擇權資料處理完成：2024-11-08
+2024-11-10 15:55:14,956 - INFO - 報告生成完成。
+2024-11-10 15:55:16,059 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-10 15:55:16,059 - INFO - 向 chat_id=1942679873 發送報告成功
+2024-11-10 15:55:16,059 - INFO - 報告發送完成，準備結束程式...
+2024-11-10 15:55:16,062 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-10 07:55:14 UTC], next run at: 2024-11-10 07:55:14 UTC)" executed successfully
+2024-11-10 15:55:16,814 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-10 15:55:16,814 - INFO - Application is stopping. This might take a moment.
+2024-11-10 15:55:16,815 - INFO - Scheduler has been shut down
+2024-11-10 15:55:16,815 - INFO - Application.stop() complete
+2024-11-10 15:55:16,815 - INFO - Telegram Bot Stopped.
+2024-11-11 15:55:03,975 - INFO - Telegram Bot Starting...
+2024-11-11 15:55:04,006 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-11 15:55:04,006 - INFO - Polling...
+2024-11-11 15:55:05,113 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-11 15:55:05,370 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-11 15:55:05,371 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-11 15:55:05,371 - INFO - Scheduler started
+2024-11-11 15:55:05,371 - INFO - Application started
+2024-11-11 15:55:06,094 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-11 15:55:06,548 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 200 OK"
+2024-11-11 15:55:14,018 - INFO - Removed job 58d4ae184d7644b0bfec9dfd07c2bcb3
+2024-11-11 15:55:14,018 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-11 07:55:14 UTC], next run at: 2024-11-11 07:55:14 UTC)" (scheduled at 2024-11-11 07:55:14.005645+00:00)
+2024-11-11 15:55:14,018 - INFO - 開始處理 TWSE 資料...
+2024-11-11 15:55:14,028 - INFO - TWSE 資料處理完成：2024-11-11, 成交金額 361,586,814,384 
+2024-11-11 15:55:14,028 - INFO - 開始處理三大法人買賣超資料...
+2024-11-11 15:55:14,047 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-11 15:55:14,052 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-11 15:55:14,052 - INFO - 開始處理期貨資料...
+2024-11-11 15:55:14,062 - INFO - 期貨資料處理完成：2024-11-11
+2024-11-11 15:55:14,063 - INFO - 開始處理選擇權資料...
+2024-11-11 15:55:14,076 - INFO - 選擇權資料處理完成：2024-11-11
+2024-11-11 15:55:14,076 - INFO - 報告生成完成。
+2024-11-11 15:55:14,840 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-11 15:55:14,840 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-11 15:55:14,840 - INFO - 報告發送完成，準備結束程式...
+2024-11-11 15:55:14,842 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-11 07:55:14 UTC], next run at: 2024-11-11 07:55:14 UTC)" executed successfully
+2024-11-11 15:55:15,574 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-11 15:55:15,575 - INFO - Application is stopping. This might take a moment.
+2024-11-11 15:55:15,575 - INFO - Scheduler has been shut down
+2024-11-11 15:55:15,575 - INFO - Application.stop() complete
+2024-11-11 15:55:15,575 - INFO - Telegram Bot Stopped.
+2024-11-18 15:55:03,858 - INFO - Telegram Bot Starting...
+2024-11-18 15:55:03,874 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-18 15:55:03,874 - INFO - Polling...
+2024-11-18 15:55:05,121 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-18 15:55:05,370 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-18 15:55:05,371 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-18 15:55:05,371 - INFO - Scheduler started
+2024-11-18 15:55:05,371 - INFO - Application started
+2024-11-18 15:55:13,883 - INFO - Removed job c773c2b1f4854e188e963aa7abd3d778
+2024-11-18 15:55:13,883 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-18 07:55:13 UTC], next run at: 2024-11-18 07:55:13 UTC)" (scheduled at 2024-11-18 07:55:13.873180+00:00)
+2024-11-18 15:55:13,883 - INFO - 開始處理 TWSE 資料...
+2024-11-18 15:55:13,893 - INFO - TWSE 資料處理完成：2024-11-18, 成交金額 355,300,705,537 
+2024-11-18 15:55:13,893 - INFO - 開始處理三大法人買賣超資料...
+2024-11-18 15:55:13,913 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-18 15:55:13,917 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-18 15:55:13,917 - INFO - 開始處理期貨資料...
+2024-11-18 15:55:13,927 - INFO - 期貨資料處理完成：2024-11-18
+2024-11-18 15:55:13,927 - INFO - 開始處理選擇權資料...
+2024-11-18 15:55:13,938 - INFO - 選擇權資料處理完成：2024-11-18
+2024-11-18 15:55:13,938 - INFO - 報告生成完成。
+2024-11-18 15:55:14,716 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-18 15:55:14,717 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-18 15:55:14,717 - INFO - 報告發送完成，準備結束程式...
+2024-11-18 15:55:14,719 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-18 07:55:13 UTC], next run at: 2024-11-18 07:55:13 UTC)" executed successfully
+2024-11-18 15:55:15,469 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-18 15:55:15,469 - INFO - Application is stopping. This might take a moment.
+2024-11-18 15:55:15,469 - INFO - Scheduler has been shut down
+2024-11-18 15:55:15,469 - INFO - Application.stop() complete
+2024-11-18 15:55:15,470 - INFO - Telegram Bot Stopped.
+2024-11-19 15:55:03,879 - INFO - Telegram Bot Starting...
+2024-11-19 15:55:03,935 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-19 15:55:03,935 - INFO - Polling...
+2024-11-19 15:55:05,017 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-19 15:55:05,262 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-19 15:55:05,263 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-19 15:55:05,263 - INFO - Scheduler started
+2024-11-19 15:55:05,263 - INFO - Application started
+2024-11-19 15:55:13,936 - INFO - Removed job 23ee90157256499e9fdfe5690e9afe4c
+2024-11-19 15:55:13,936 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-19 07:55:13 UTC], next run at: 2024-11-19 07:55:13 UTC)" (scheduled at 2024-11-19 07:55:13.934142+00:00)
+2024-11-19 15:55:13,936 - INFO - 開始處理 TWSE 資料...
+2024-11-19 15:55:13,967 - INFO - TWSE 資料處理完成：2024-11-18, 成交金額 355,300,705,537 
+2024-11-19 15:55:13,967 - INFO - 開始處理三大法人買賣超資料...
+2024-11-19 15:55:13,995 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-19 15:55:14,002 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-19 15:55:14,002 - INFO - 開始處理期貨資料...
+2024-11-19 15:55:14,012 - INFO - 期貨資料處理完成：2024-11-19
+2024-11-19 15:55:14,012 - INFO - 開始處理選擇權資料...
+2024-11-19 15:55:14,022 - INFO - 選擇權資料處理完成：2024-11-19
+2024-11-19 15:55:14,022 - INFO - 報告生成完成。
+2024-11-19 15:55:14,758 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-19 15:55:14,758 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-19 15:55:14,758 - INFO - 報告發送完成，準備結束程式...
+2024-11-19 15:55:14,761 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-19 07:55:13 UTC], next run at: 2024-11-19 07:55:13 UTC)" executed successfully
+2024-11-19 15:55:15,510 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-19 15:55:15,510 - INFO - Application is stopping. This might take a moment.
+2024-11-19 15:55:15,511 - INFO - Scheduler has been shut down
+2024-11-19 15:55:15,511 - INFO - Application.stop() complete
+2024-11-19 15:55:15,511 - INFO - Telegram Bot Stopped.
+2024-11-20 15:55:03,773 - INFO - Telegram Bot Starting...
+2024-11-20 15:55:03,810 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-20 15:55:03,810 - INFO - Polling...
+2024-11-20 15:55:05,035 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-20 15:55:05,407 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-20 15:55:05,408 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-20 15:55:05,408 - INFO - Scheduler started
+2024-11-20 15:55:05,408 - INFO - Application started
+2024-11-20 15:55:13,817 - INFO - Removed job fc577c3dafef4aacbce9fca32de3628d
+2024-11-20 15:55:13,817 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-20 07:55:13 UTC], next run at: 2024-11-20 07:55:13 UTC)" (scheduled at 2024-11-20 07:55:13.809678+00:00)
+2024-11-20 15:55:13,817 - INFO - 開始處理 TWSE 資料...
+2024-11-20 15:55:13,839 - INFO - TWSE 資料處理完成：2024-11-18, 成交金額 355,300,705,537 
+2024-11-20 15:55:13,839 - INFO - 開始處理三大法人買賣超資料...
+2024-11-20 15:55:13,871 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-20 15:55:13,875 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-20 15:55:13,875 - INFO - 開始處理期貨資料...
+2024-11-20 15:55:13,885 - INFO - 期貨資料處理完成：2024-11-20
+2024-11-20 15:55:13,885 - INFO - 開始處理選擇權資料...
+2024-11-20 15:55:13,900 - INFO - 選擇權資料處理完成：2024-11-20
+2024-11-20 15:55:13,900 - INFO - 報告生成完成。
+2024-11-20 15:55:14,662 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-20 15:55:14,662 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-20 15:55:14,662 - INFO - 報告發送完成，準備結束程式...
+2024-11-20 15:55:14,666 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-20 07:55:13 UTC], next run at: 2024-11-20 07:55:13 UTC)" executed successfully
+2024-11-20 15:55:15,422 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-20 15:55:15,422 - INFO - Application is stopping. This might take a moment.
+2024-11-20 15:55:15,422 - INFO - Scheduler has been shut down
+2024-11-20 15:55:15,422 - INFO - Application.stop() complete
+2024-11-20 15:55:15,423 - INFO - Telegram Bot Stopped.
+2024-11-21 15:55:03,874 - INFO - Telegram Bot Starting...
+2024-11-21 15:55:03,903 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-21 15:55:03,903 - INFO - Polling...
+2024-11-21 15:55:05,046 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-21 15:55:05,296 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-21 15:55:05,297 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-21 15:55:05,297 - INFO - Scheduler started
+2024-11-21 15:55:05,297 - INFO - Application started
+2024-11-21 15:55:13,904 - INFO - Removed job a1edbb13dd9e4bc68351cdcf9c15efeb
+2024-11-21 15:55:13,904 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-21 07:55:13 UTC], next run at: 2024-11-21 07:55:13 UTC)" (scheduled at 2024-11-21 07:55:13.902311+00:00)
+2024-11-21 15:55:13,904 - INFO - 開始處理 TWSE 資料...
+2024-11-21 15:55:13,936 - INFO - TWSE 資料處理完成：2024-11-18, 成交金額 355,300,705,537 
+2024-11-21 15:55:13,936 - INFO - 開始處理三大法人買賣超資料...
+2024-11-21 15:55:13,965 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-21 15:55:13,970 - INFO - 三大法人買賣超資料處理完成：2024-11-08, 總合計 3,881,678,098 元
+2024-11-21 15:55:13,970 - INFO - 開始處理期貨資料...
+2024-11-21 15:55:13,979 - INFO - 期貨資料處理完成：2024-11-21
+2024-11-21 15:55:13,980 - INFO - 開始處理選擇權資料...
+2024-11-21 15:55:13,989 - INFO - 選擇權資料處理完成：2024-11-21
+2024-11-21 15:55:13,989 - INFO - 報告生成完成。
+2024-11-21 15:55:14,751 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-21 15:55:14,752 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-21 15:55:14,752 - INFO - 報告發送完成，準備結束程式...
+2024-11-21 15:55:14,754 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-21 07:55:13 UTC], next run at: 2024-11-21 07:55:13 UTC)" executed successfully
+2024-11-21 15:55:15,505 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-21 15:55:15,505 - INFO - Application is stopping. This might take a moment.
+2024-11-21 15:55:15,505 - INFO - Scheduler has been shut down
+2024-11-21 15:55:15,505 - INFO - Application.stop() complete
+2024-11-21 15:55:15,506 - INFO - Telegram Bot Stopped.
+2024-11-25 15:35:25,743 - INFO - Telegram Bot Starting...
+2024-11-25 15:35:25,759 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-25 15:35:25,759 - INFO - Polling...
+2024-11-25 15:35:27,023 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-25 15:35:27,326 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-25 15:35:27,328 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-25 15:35:27,328 - INFO - Scheduler started
+2024-11-25 15:35:27,328 - INFO - Application started
+2024-11-25 15:35:35,758 - INFO - Removed job 1b7bbc5e76354106a308b2a15c8ec725
+2024-11-25 15:35:35,758 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-25 07:35:35 UTC], next run at: 2024-11-25 07:35:35 UTC)" (scheduled at 2024-11-25 07:35:35.758478+00:00)
+2024-11-25 15:35:35,758 - INFO - 開始處理 TWSE 資料...
+2024-11-25 15:35:35,769 - INFO - TWSE 資料處理完成：2024-11-25, 成交金額 474,093,350,184 
+2024-11-25 15:35:35,769 - INFO - 開始處理三大法人買賣超資料...
+2024-11-25 15:35:35,778 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-25 15:35:35,782 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-11-25 15:35:35,782 - INFO - 開始處理期貨資料...
+2024-11-25 15:35:35,793 - INFO - 期貨資料處理完成：2024-11-25
+2024-11-25 15:35:35,793 - INFO - 開始處理選擇權資料...
+2024-11-25 15:35:35,805 - INFO - 選擇權資料處理完成：2024-11-25
+2024-11-25 15:35:35,805 - INFO - 報告生成完成。
+2024-11-25 15:35:36,536 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-25 15:35:36,537 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-25 15:35:36,537 - INFO - 報告發送完成，準備結束程式...
+2024-11-25 15:35:36,539 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-25 07:35:35 UTC], next run at: 2024-11-25 07:35:35 UTC)" executed successfully
+2024-11-25 15:35:37,285 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-25 15:35:37,285 - INFO - Application is stopping. This might take a moment.
+2024-11-25 15:35:37,285 - INFO - Scheduler has been shut down
+2024-11-25 15:35:37,285 - INFO - Application.stop() complete
+2024-11-25 15:35:37,286 - INFO - Telegram Bot Stopped.
+2024-11-25 15:55:02,395 - INFO - Telegram Bot Starting...
+2024-11-25 15:55:02,410 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-25 15:55:02,410 - INFO - Polling...
+2024-11-25 15:55:03,185 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-25 15:55:03,434 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-25 15:55:03,435 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-25 15:55:03,435 - INFO - Scheduler started
+2024-11-25 15:55:03,435 - INFO - Application started
+2024-11-25 15:55:12,423 - INFO - Removed job da350f63c2474c3db1a829514a3d4a90
+2024-11-25 15:55:12,423 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-25 07:55:12 UTC], next run at: 2024-11-25 07:55:12 UTC)" (scheduled at 2024-11-25 07:55:12.409945+00:00)
+2024-11-25 15:55:12,423 - INFO - 開始處理 TWSE 資料...
+2024-11-25 15:55:12,425 - INFO - TWSE 資料處理完成：2024-11-25, 成交金額 474,093,350,184 
+2024-11-25 15:55:12,425 - INFO - 開始處理三大法人買賣超資料...
+2024-11-25 15:55:12,428 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-25 15:55:12,436 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-11-25 15:55:12,436 - INFO - 開始處理期貨資料...
+2024-11-25 15:55:12,441 - INFO - 期貨資料處理完成：2024-11-25
+2024-11-25 15:55:12,441 - INFO - 開始處理選擇權資料...
+2024-11-25 15:55:12,445 - INFO - 選擇權資料處理完成：2024-11-25
+2024-11-25 15:55:12,445 - INFO - 報告生成完成。
+2024-11-25 15:55:13,179 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-25 15:55:13,179 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-25 15:55:13,179 - INFO - 報告發送完成，準備結束程式...
+2024-11-25 15:55:13,183 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-25 07:55:12 UTC], next run at: 2024-11-25 07:55:12 UTC)" executed successfully
+2024-11-25 15:55:13,915 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-25 15:55:13,915 - INFO - Application is stopping. This might take a moment.
+2024-11-25 15:55:13,915 - INFO - Scheduler has been shut down
+2024-11-25 15:55:13,915 - INFO - Application.stop() complete
+2024-11-25 15:55:13,916 - INFO - Telegram Bot Stopped.
+2024-11-26 15:40:35,907 - INFO - Telegram Bot Starting...
+2024-11-26 15:40:35,937 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-26 15:40:35,937 - INFO - Polling...
+2024-11-26 15:40:37,039 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-26 15:40:37,283 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-26 15:40:37,284 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-26 15:40:37,284 - INFO - Scheduler started
+2024-11-26 15:40:37,284 - INFO - Application started
+2024-11-26 15:40:45,956 - INFO - Removed job f4564185c3bc4c94836fef4529202923
+2024-11-26 15:40:45,956 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-26 07:40:45 UTC], next run at: 2024-11-26 07:40:45 UTC)" (scheduled at 2024-11-26 07:40:45.936535+00:00)
+2024-11-26 15:40:45,956 - INFO - 開始處理 TWSE 資料...
+2024-11-26 15:40:45,980 - INFO - TWSE 資料處理完成：2024-11-25, 成交金額 474,093,350,184 
+2024-11-26 15:40:45,980 - INFO - 開始處理三大法人買賣超資料...
+2024-11-26 15:40:45,996 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-26 15:40:46,001 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-11-26 15:40:46,001 - INFO - 開始處理期貨資料...
+2024-11-26 15:40:46,013 - INFO - 期貨資料處理完成：2024-11-25
+2024-11-26 15:40:46,013 - INFO - 開始處理選擇權資料...
+2024-11-26 15:40:46,033 - INFO - 選擇權資料處理完成：2024-11-25
+2024-11-26 15:40:46,048 - INFO - 報告生成完成。
+2024-11-26 15:40:46,810 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-26 15:40:46,810 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-26 15:40:46,810 - INFO - 報告發送完成，準備結束程式...
+2024-11-26 15:40:46,812 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-26 07:40:45 UTC], next run at: 2024-11-26 07:40:45 UTC)" executed successfully
+2024-11-26 15:40:47,549 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-26 15:40:47,549 - INFO - Application is stopping. This might take a moment.
+2024-11-26 15:40:47,549 - INFO - Scheduler has been shut down
+2024-11-26 15:40:47,549 - INFO - Application.stop() complete
+2024-11-26 15:40:47,550 - INFO - Telegram Bot Stopped.
+2024-11-26 15:55:02,303 - INFO - Telegram Bot Starting...
+2024-11-26 15:55:02,319 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-26 15:55:02,319 - INFO - Polling...
+2024-11-26 15:55:03,076 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-26 15:55:03,316 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-26 15:55:03,317 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-26 15:55:03,317 - INFO - Scheduler started
+2024-11-26 15:55:03,317 - INFO - Application started
+2024-11-26 15:55:12,319 - INFO - Removed job bfc856966fdb4ea786258e8a09f77a9c
+2024-11-26 15:55:12,319 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-26 07:55:12 UTC], next run at: 2024-11-26 07:55:12 UTC)" (scheduled at 2024-11-26 07:55:12.318616+00:00)
+2024-11-26 15:55:12,319 - INFO - 開始處理 TWSE 資料...
+2024-11-26 15:55:12,329 - INFO - TWSE 資料處理完成：2024-11-26, 成交金額 315,936,467,353 
+2024-11-26 15:55:12,329 - INFO - 開始處理三大法人買賣超資料...
+2024-11-26 15:55:12,331 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-26 15:55:12,336 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-11-26 15:55:12,336 - INFO - 開始處理期貨資料...
+2024-11-26 15:55:12,341 - INFO - 期貨資料處理完成：2024-11-26
+2024-11-26 15:55:12,341 - INFO - 開始處理選擇權資料...
+2024-11-26 15:55:12,345 - INFO - 選擇權資料處理完成：2024-11-26
+2024-11-26 15:55:12,345 - INFO - 報告生成完成。
+2024-11-26 15:55:13,126 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-26 15:55:13,127 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-26 15:55:13,127 - INFO - 報告發送完成，準備結束程式...
+2024-11-26 15:55:13,129 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-26 07:55:12 UTC], next run at: 2024-11-26 07:55:12 UTC)" executed successfully
+2024-11-26 15:55:13,875 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-26 15:55:13,875 - INFO - Application is stopping. This might take a moment.
+2024-11-26 15:55:13,875 - INFO - Scheduler has been shut down
+2024-11-26 15:55:13,875 - INFO - Application.stop() complete
+2024-11-26 15:55:13,876 - INFO - Telegram Bot Stopped.
+2024-11-30 15:55:04,627 - INFO - Telegram Bot Starting...
+2024-11-30 15:55:04,662 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-30 15:55:04,662 - INFO - Polling...
+2024-11-30 15:55:05,910 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-11-30 15:55:06,154 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-11-30 15:55:06,154 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-11-30 15:55:06,155 - INFO - Scheduler started
+2024-11-30 15:55:06,155 - INFO - Application started
+2024-11-30 15:55:14,671 - INFO - Removed job 7f48df9706c645fc982b938a68da5710
+2024-11-30 15:55:14,671 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-11-30 07:55:14 UTC], next run at: 2024-11-30 07:55:14 UTC)" (scheduled at 2024-11-30 07:55:14.661893+00:00)
+2024-11-30 15:55:14,672 - INFO - 開始處理 TWSE 資料...
+2024-11-30 15:55:14,685 - INFO - TWSE 資料處理完成：2024-11-29, 成交金額 315,469,664,319 
+2024-11-30 15:55:14,685 - INFO - 開始處理三大法人買賣超資料...
+2024-11-30 15:55:14,697 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-11-30 15:55:14,703 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-11-30 15:55:14,704 - INFO - 開始處理期貨資料...
+2024-11-30 15:55:14,717 - INFO - 期貨資料處理完成：2024-11-29
+2024-11-30 15:55:14,718 - INFO - 開始處理選擇權資料...
+2024-11-30 15:55:14,734 - INFO - 選擇權資料處理完成：2024-11-29
+2024-11-30 15:55:14,734 - INFO - 報告生成完成。
+2024-11-30 15:55:15,473 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-11-30 15:55:15,474 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-11-30 15:55:15,474 - INFO - 報告發送完成，準備結束程式...
+2024-11-30 15:55:15,478 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-11-30 07:55:14 UTC], next run at: 2024-11-30 07:55:14 UTC)" executed successfully
+2024-11-30 15:55:16,203 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-11-30 15:55:16,203 - INFO - Application is stopping. This might take a moment.
+2024-11-30 15:55:16,203 - INFO - Scheduler has been shut down
+2024-11-30 15:55:16,203 - INFO - Application.stop() complete
+2024-11-30 15:55:16,204 - INFO - Telegram Bot Stopped.
+2024-12-01 15:55:04,029 - INFO - Telegram Bot Starting...
+2024-12-01 15:55:04,056 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-01 15:55:04,056 - INFO - Polling...
+2024-12-01 15:55:05,153 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-01 15:55:05,402 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-01 15:55:05,403 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-01 15:55:05,403 - INFO - Scheduler started
+2024-12-01 15:55:05,403 - INFO - Application started
+2024-12-01 15:55:14,062 - INFO - Removed job 4d4cf365e1594c498c75a6c787f1a9ce
+2024-12-01 15:55:14,062 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-01 07:55:14 UTC], next run at: 2024-12-01 07:55:14 UTC)" (scheduled at 2024-12-01 07:55:14.055480+00:00)
+2024-12-01 15:55:14,062 - INFO - 開始處理 TWSE 資料...
+2024-12-01 15:55:14,087 - INFO - TWSE 資料處理完成：2024-11-29, 成交金額 315,469,664,319 
+2024-12-01 15:55:14,087 - INFO - 開始處理三大法人買賣超資料...
+2024-12-01 15:55:14,111 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-01 15:55:14,115 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-01 15:55:14,115 - INFO - 開始處理期貨資料...
+2024-12-01 15:55:14,121 - INFO - 期貨資料處理完成：2024-11-29
+2024-12-01 15:55:14,132 - INFO - 開始處理選擇權資料...
+2024-12-01 15:55:14,138 - INFO - 選擇權資料處理完成：2024-11-29
+2024-12-01 15:55:14,138 - INFO - 報告生成完成。
+2024-12-01 15:55:14,883 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-01 15:55:14,883 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-01 15:55:14,883 - INFO - 報告發送完成，準備結束程式...
+2024-12-01 15:55:14,885 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-01 07:55:14 UTC], next run at: 2024-12-01 07:55:14 UTC)" executed successfully
+2024-12-01 15:55:15,634 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-01 15:55:15,634 - INFO - Application is stopping. This might take a moment.
+2024-12-01 15:55:15,634 - INFO - Scheduler has been shut down
+2024-12-01 15:55:15,634 - INFO - Application.stop() complete
+2024-12-01 15:55:15,635 - INFO - Telegram Bot Stopped.
+2024-12-02 15:55:05,027 - INFO - Telegram Bot Starting...
+2024-12-02 15:55:05,052 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-02 15:55:05,052 - INFO - Polling...
+2024-12-02 15:55:06,161 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-02 15:55:06,415 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-02 15:55:06,416 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-02 15:55:06,416 - INFO - Scheduler started
+2024-12-02 15:55:06,416 - INFO - Application started
+2024-12-02 15:55:15,053 - INFO - Removed job acb9b14e5ad845c5a175939310d81e37
+2024-12-02 15:55:15,053 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-02 07:55:15 UTC], next run at: 2024-12-02 07:55:15 UTC)" (scheduled at 2024-12-02 07:55:15.051340+00:00)
+2024-12-02 15:55:15,053 - INFO - 開始處理 TWSE 資料...
+2024-12-02 15:55:15,067 - INFO - TWSE 資料處理完成：2024-12-02, 成交金額 316,463,409,990 
+2024-12-02 15:55:15,067 - INFO - 開始處理三大法人買賣超資料...
+2024-12-02 15:55:15,091 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-02 15:55:15,096 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-02 15:55:15,096 - INFO - 開始處理期貨資料...
+2024-12-02 15:55:15,112 - INFO - 期貨資料處理完成：2024-12-02
+2024-12-02 15:55:15,113 - INFO - 開始處理選擇權資料...
+2024-12-02 15:55:15,131 - INFO - 選擇權資料處理完成：2024-12-02
+2024-12-02 15:55:15,132 - INFO - 報告生成完成。
+2024-12-02 15:55:15,883 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-02 15:55:15,883 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-02 15:55:15,883 - INFO - 報告發送完成，準備結束程式...
+2024-12-02 15:55:15,888 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-02 07:55:15 UTC], next run at: 2024-12-02 07:55:15 UTC)" executed successfully
+2024-12-02 15:55:16,615 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-02 15:55:16,615 - INFO - Application is stopping. This might take a moment.
+2024-12-02 15:55:16,616 - INFO - Scheduler has been shut down
+2024-12-02 15:55:16,616 - INFO - Application.stop() complete
+2024-12-02 15:55:16,617 - INFO - Telegram Bot Stopped.
+2024-12-03 15:55:04,422 - INFO - Telegram Bot Starting...
+2024-12-03 15:55:04,445 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-03 15:55:04,445 - INFO - Polling...
+2024-12-03 15:55:05,538 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-03 15:55:05,783 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-03 15:55:05,784 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-03 15:55:05,784 - INFO - Scheduler started
+2024-12-03 15:55:05,784 - INFO - Application started
+2024-12-03 15:55:14,460 - INFO - Removed job d9db0b37049d436e9073f4c941c1389f
+2024-12-03 15:55:14,460 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-03 07:55:14 UTC], next run at: 2024-12-03 07:55:14 UTC)" (scheduled at 2024-12-03 07:55:14.443716+00:00)
+2024-12-03 15:55:14,460 - INFO - 開始處理 TWSE 資料...
+2024-12-03 15:55:14,487 - INFO - TWSE 資料處理完成：2024-12-02, 成交金額 316,463,409,990 
+2024-12-03 15:55:14,488 - INFO - 開始處理三大法人買賣超資料...
+2024-12-03 15:55:14,516 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-03 15:55:14,521 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-03 15:55:14,521 - INFO - 開始處理期貨資料...
+2024-12-03 15:55:14,534 - INFO - 期貨資料處理完成：2024-12-03
+2024-12-03 15:55:14,534 - INFO - 開始處理選擇權資料...
+2024-12-03 15:55:14,547 - INFO - 選擇權資料處理完成：2024-12-03
+2024-12-03 15:55:14,547 - INFO - 報告生成完成。
+2024-12-03 15:55:15,307 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-03 15:55:15,307 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-03 15:55:15,307 - INFO - 報告發送完成，準備結束程式...
+2024-12-03 15:55:15,309 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-03 07:55:14 UTC], next run at: 2024-12-03 07:55:14 UTC)" executed successfully
+2024-12-03 15:55:16,061 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-03 15:55:16,062 - INFO - Application is stopping. This might take a moment.
+2024-12-03 15:55:16,062 - INFO - Scheduler has been shut down
+2024-12-03 15:55:16,062 - INFO - Application.stop() complete
+2024-12-03 15:55:16,062 - INFO - Telegram Bot Stopped.
+2024-12-05 15:55:03,927 - INFO - Telegram Bot Starting...
+2024-12-05 15:55:03,948 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-05 15:55:03,948 - INFO - Polling...
+2024-12-05 15:55:05,221 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-05 15:55:05,472 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-05 15:55:05,473 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-05 15:55:05,473 - INFO - Scheduler started
+2024-12-05 15:55:05,473 - INFO - Application started
+2024-12-05 15:55:13,957 - INFO - Removed job 24b121b2ea3348739fa4dc10d5ec90bd
+2024-12-05 15:55:13,957 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-05 07:55:13 UTC], next run at: 2024-12-05 07:55:13 UTC)" (scheduled at 2024-12-05 07:55:13.946763+00:00)
+2024-12-05 15:55:13,957 - INFO - 開始處理 TWSE 資料...
+2024-12-05 15:55:13,967 - INFO - TWSE 資料處理完成：2024-12-05, 成交金額 374,405,341,817 
+2024-12-05 15:55:13,967 - INFO - 開始處理三大法人買賣超資料...
+2024-12-05 15:55:13,992 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-05 15:55:13,997 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-05 15:55:13,997 - INFO - 開始處理期貨資料...
+2024-12-05 15:55:14,008 - INFO - 期貨資料處理完成：2024-12-05
+2024-12-05 15:55:14,008 - INFO - 開始處理選擇權資料...
+2024-12-05 15:55:14,020 - INFO - 選擇權資料處理完成：2024-12-05
+2024-12-05 15:55:14,020 - INFO - 報告生成完成。
+2024-12-05 15:55:14,798 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-05 15:55:14,798 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-05 15:55:14,798 - INFO - 報告發送完成，準備結束程式...
+2024-12-05 15:55:14,801 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-05 07:55:13 UTC], next run at: 2024-12-05 07:55:13 UTC)" executed successfully
+2024-12-05 15:55:15,563 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-05 15:55:15,563 - INFO - Application is stopping. This might take a moment.
+2024-12-05 15:55:15,564 - INFO - Scheduler has been shut down
+2024-12-05 15:55:15,564 - INFO - Application.stop() complete
+2024-12-05 15:55:15,564 - INFO - Telegram Bot Stopped.
+2024-12-08 15:55:03,892 - INFO - Telegram Bot Starting...
+2024-12-08 15:55:03,922 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-08 15:55:03,922 - INFO - Polling...
+2024-12-08 15:55:04,703 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-08 15:55:05,649 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-08 15:55:05,650 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-08 15:55:05,650 - INFO - Scheduler started
+2024-12-08 15:55:05,650 - INFO - Application started
+2024-12-08 15:55:13,925 - INFO - Removed job b2a1e6a5183d4c1a97fd229673253f9c
+2024-12-08 15:55:13,925 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-08 07:55:13 UTC], next run at: 2024-12-08 07:55:13 UTC)" (scheduled at 2024-12-08 07:55:13.921235+00:00)
+2024-12-08 15:55:13,925 - INFO - 開始處理 TWSE 資料...
+2024-12-08 15:55:13,935 - INFO - TWSE 資料處理完成：2024-12-06, 成交金額 370,462,134,170 
+2024-12-08 15:55:13,936 - INFO - 開始處理三大法人買賣超資料...
+2024-12-08 15:55:13,957 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-08 15:55:13,962 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-08 15:55:13,962 - INFO - 開始處理期貨資料...
+2024-12-08 15:55:13,973 - INFO - 期貨資料處理完成：2024-12-06
+2024-12-08 15:55:13,973 - INFO - 開始處理選擇權資料...
+2024-12-08 15:55:13,985 - INFO - 選擇權資料處理完成：2024-12-06
+2024-12-08 15:55:13,985 - INFO - 報告生成完成。
+2024-12-08 15:55:14,794 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-08 15:55:14,795 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-08 15:55:14,795 - INFO - 報告發送完成，準備結束程式...
+2024-12-08 15:55:14,797 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-08 07:55:13 UTC], next run at: 2024-12-08 07:55:13 UTC)" executed successfully
+2024-12-08 15:55:15,551 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-08 15:55:15,552 - INFO - Application is stopping. This might take a moment.
+2024-12-08 15:55:15,552 - INFO - Scheduler has been shut down
+2024-12-08 15:55:15,552 - INFO - Application.stop() complete
+2024-12-08 15:55:15,553 - INFO - Telegram Bot Stopped.
+2024-12-09 15:55:04,074 - INFO - Telegram Bot Starting...
+2024-12-09 15:55:04,094 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-09 15:55:04,095 - INFO - Polling...
+2024-12-09 15:55:04,900 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-09 15:55:05,147 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-09 15:55:05,148 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-09 15:55:05,148 - INFO - Scheduler started
+2024-12-09 15:55:05,149 - INFO - Application started
+2024-12-09 15:55:14,106 - INFO - Removed job eda5a9deea61422998072aefeb485b61
+2024-12-09 15:55:14,106 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-09 07:55:14 UTC], next run at: 2024-12-09 07:55:14 UTC)" (scheduled at 2024-12-09 07:55:14.093290+00:00)
+2024-12-09 15:55:14,106 - INFO - 開始處理 TWSE 資料...
+2024-12-09 15:55:14,115 - INFO - TWSE 資料處理完成：2024-12-09, 成交金額 359,594,679,426 
+2024-12-09 15:55:14,115 - INFO - 開始處理三大法人買賣超資料...
+2024-12-09 15:55:14,138 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-09 15:55:14,143 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-09 15:55:14,143 - INFO - 開始處理期貨資料...
+2024-12-09 15:55:14,153 - INFO - 期貨資料處理完成：2024-12-09
+2024-12-09 15:55:14,153 - INFO - 開始處理選擇權資料...
+2024-12-09 15:55:14,164 - INFO - 選擇權資料處理完成：2024-12-09
+2024-12-09 15:55:14,164 - INFO - 報告生成完成。
+2024-12-09 15:55:14,939 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-09 15:55:14,939 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-09 15:55:14,939 - INFO - 報告發送完成，準備結束程式...
+2024-12-09 15:55:14,942 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-09 07:55:14 UTC], next run at: 2024-12-09 07:55:14 UTC)" executed successfully
+2024-12-09 15:55:15,672 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-09 15:55:15,673 - INFO - Application is stopping. This might take a moment.
+2024-12-09 15:55:15,673 - INFO - Scheduler has been shut down
+2024-12-09 15:55:15,673 - INFO - Application.stop() complete
+2024-12-09 15:55:15,673 - INFO - Telegram Bot Stopped.
+2024-12-10 15:55:04,296 - INFO - Telegram Bot Starting...
+2024-12-10 15:55:04,328 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-10 15:55:04,328 - INFO - Polling...
+2024-12-10 15:55:05,170 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-10 15:55:05,418 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-10 15:55:05,419 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-10 15:55:05,419 - INFO - Scheduler started
+2024-12-10 15:55:05,420 - INFO - Application started
+2024-12-10 15:55:14,337 - INFO - Removed job 7d068d2d74ba405390ccbee431b35606
+2024-12-10 15:55:14,337 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-10 07:55:14 UTC], next run at: 2024-12-10 07:55:14 UTC)" (scheduled at 2024-12-10 07:55:14.327559+00:00)
+2024-12-10 15:55:14,337 - INFO - 開始處理 TWSE 資料...
+2024-12-10 15:55:14,362 - INFO - TWSE 資料處理完成：2024-12-09, 成交金額 359,594,679,426 
+2024-12-10 15:55:14,363 - INFO - 開始處理三大法人買賣超資料...
+2024-12-10 15:55:14,382 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-10 15:55:14,387 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-10 15:55:14,387 - INFO - 開始處理期貨資料...
+2024-12-10 15:55:14,400 - INFO - 期貨資料處理完成：2024-12-10
+2024-12-10 15:55:14,400 - INFO - 開始處理選擇權資料...
+2024-12-10 15:55:14,412 - INFO - 選擇權資料處理完成：2024-12-10
+2024-12-10 15:55:14,412 - INFO - 報告生成完成。
+2024-12-10 15:55:15,146 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-10 15:55:15,146 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-10 15:55:15,146 - INFO - 報告發送完成，準備結束程式...
+2024-12-10 15:55:15,149 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-10 07:55:14 UTC], next run at: 2024-12-10 07:55:14 UTC)" executed successfully
+2024-12-10 15:55:15,913 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-10 15:55:15,914 - INFO - Application is stopping. This might take a moment.
+2024-12-10 15:55:15,914 - INFO - Scheduler has been shut down
+2024-12-10 15:55:15,914 - INFO - Application.stop() complete
+2024-12-10 15:55:15,914 - INFO - Telegram Bot Stopped.
+2024-12-11 15:55:04,050 - INFO - Telegram Bot Starting...
+2024-12-11 15:55:04,093 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-11 15:55:04,093 - INFO - Polling...
+2024-12-11 15:55:04,862 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-11 15:55:05,147 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-11 15:55:05,148 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-11 15:55:05,148 - INFO - Scheduler started
+2024-12-11 15:55:05,148 - INFO - Application started
+2024-12-11 15:55:14,115 - INFO - Removed job 40b5bcfbc8134425a6bc5228158c7810
+2024-12-11 15:55:14,115 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-11 07:55:14 UTC], next run at: 2024-12-11 07:55:14 UTC)" (scheduled at 2024-12-11 07:55:14.092032+00:00)
+2024-12-11 15:55:14,115 - INFO - 開始處理 TWSE 資料...
+2024-12-11 15:55:14,126 - INFO - TWSE 資料處理完成：2024-12-11, 成交金額 335,372,179,984 
+2024-12-11 15:55:14,126 - INFO - 開始處理三大法人買賣超資料...
+2024-12-11 15:55:14,155 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-11 15:55:14,159 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-11 15:55:14,159 - INFO - 開始處理期貨資料...
+2024-12-11 15:55:14,169 - INFO - 期貨資料處理完成：2024-12-11
+2024-12-11 15:55:14,169 - INFO - 開始處理選擇權資料...
+2024-12-11 15:55:14,179 - INFO - 選擇權資料處理完成：2024-12-11
+2024-12-11 15:55:14,179 - INFO - 報告生成完成。
+2024-12-11 15:55:14,921 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-11 15:55:14,921 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-11 15:55:14,921 - INFO - 報告發送完成，準備結束程式...
+2024-12-11 15:55:14,924 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-11 07:55:14 UTC], next run at: 2024-12-11 07:55:14 UTC)" executed successfully
+2024-12-11 15:55:15,684 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-11 15:55:15,684 - INFO - Application is stopping. This might take a moment.
+2024-12-11 15:55:15,684 - INFO - Scheduler has been shut down
+2024-12-11 15:55:15,684 - INFO - Application.stop() complete
+2024-12-11 15:55:15,685 - INFO - Telegram Bot Stopped.
+2024-12-12 15:55:04,518 - INFO - Telegram Bot Starting...
+2024-12-12 15:55:04,547 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-12 15:55:04,547 - INFO - Polling...
+2024-12-12 15:55:05,341 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-12 15:55:05,588 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-12 15:55:05,589 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-12 15:55:05,589 - INFO - Scheduler started
+2024-12-12 15:55:05,589 - INFO - Application started
+2024-12-12 15:55:14,547 - INFO - Removed job ad3beb7036924305b9853126dfe890c0
+2024-12-12 15:55:14,547 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-12 07:55:14 UTC], next run at: 2024-12-12 07:55:14 UTC)" (scheduled at 2024-12-12 07:55:14.545288+00:00)
+2024-12-12 15:55:14,547 - INFO - 開始處理 TWSE 資料...
+2024-12-12 15:55:14,557 - INFO - TWSE 資料處理完成：2024-12-12, 成交金額 354,226,372,264 
+2024-12-12 15:55:14,557 - INFO - 開始處理三大法人買賣超資料...
+2024-12-12 15:55:14,589 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-12 15:55:14,594 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-12 15:55:14,594 - INFO - 開始處理期貨資料...
+2024-12-12 15:55:14,607 - INFO - 期貨資料處理完成：2024-12-12
+2024-12-12 15:55:14,607 - INFO - 開始處理選擇權資料...
+2024-12-12 15:55:14,622 - INFO - 選擇權資料處理完成：2024-12-12
+2024-12-12 15:55:14,622 - INFO - 報告生成完成。
+2024-12-12 15:55:15,388 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-12 15:55:15,388 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-12 15:55:15,388 - INFO - 報告發送完成，準備結束程式...
+2024-12-12 15:55:15,390 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-12 07:55:14 UTC], next run at: 2024-12-12 07:55:14 UTC)" executed successfully
+2024-12-12 15:55:16,263 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-12 15:55:16,263 - INFO - Application is stopping. This might take a moment.
+2024-12-12 15:55:16,263 - INFO - Scheduler has been shut down
+2024-12-12 15:55:16,264 - INFO - Application.stop() complete
+2024-12-12 15:55:16,264 - INFO - Telegram Bot Stopped.
+2024-12-14 15:55:04,194 - INFO - Telegram Bot Starting...
+2024-12-14 15:55:04,214 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-14 15:55:04,214 - INFO - Polling...
+2024-12-14 15:55:05,333 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-14 15:55:05,582 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-14 15:55:05,583 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-14 15:55:05,584 - INFO - Scheduler started
+2024-12-14 15:55:05,584 - INFO - Application started
+2024-12-14 15:55:14,221 - INFO - Removed job 1fd92b406de04d0eaddf2f895314e17a
+2024-12-14 15:55:14,221 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-14 07:55:14 UTC], next run at: 2024-12-14 07:55:14 UTC)" (scheduled at 2024-12-14 07:55:14.213273+00:00)
+2024-12-14 15:55:14,221 - INFO - 開始處理 TWSE 資料...
+2024-12-14 15:55:14,231 - INFO - TWSE 資料處理完成：2024-12-13, 成交金額 355,185,043,778 
+2024-12-14 15:55:14,231 - INFO - 開始處理三大法人買賣超資料...
+2024-12-14 15:55:14,252 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-14 15:55:14,257 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-14 15:55:14,257 - INFO - 開始處理期貨資料...
+2024-12-14 15:55:14,267 - INFO - 期貨資料處理完成：2024-12-13
+2024-12-14 15:55:14,267 - INFO - 開始處理選擇權資料...
+2024-12-14 15:55:14,278 - INFO - 選擇權資料處理完成：2024-12-13
+2024-12-14 15:55:14,278 - INFO - 報告生成完成。
+2024-12-14 15:55:15,005 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-14 15:55:15,005 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-14 15:55:15,005 - INFO - 報告發送完成，準備結束程式...
+2024-12-14 15:55:15,008 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-14 07:55:14 UTC], next run at: 2024-12-14 07:55:14 UTC)" executed successfully
+2024-12-14 15:55:15,755 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-14 15:55:15,756 - INFO - Application is stopping. This might take a moment.
+2024-12-14 15:55:15,756 - INFO - Scheduler has been shut down
+2024-12-14 15:55:15,756 - INFO - Application.stop() complete
+2024-12-14 15:55:15,756 - INFO - Telegram Bot Stopped.
+2024-12-15 15:55:04,152 - INFO - Telegram Bot Starting...
+2024-12-15 15:55:04,187 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-15 15:55:04,188 - INFO - Polling...
+2024-12-15 15:55:04,973 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-15 15:55:05,222 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-15 15:55:05,223 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-15 15:55:05,223 - INFO - Scheduler started
+2024-12-15 15:55:05,223 - INFO - Application started
+2024-12-15 15:55:14,200 - INFO - Removed job d37fc4a357f34c0dbcec42e3cd019e6a
+2024-12-15 15:55:14,200 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-15 07:55:14 UTC], next run at: 2024-12-15 07:55:14 UTC)" (scheduled at 2024-12-15 07:55:14.186277+00:00)
+2024-12-15 15:55:14,200 - INFO - 開始處理 TWSE 資料...
+2024-12-15 15:55:14,202 - INFO - TWSE 資料處理完成：2024-12-13, 成交金額 355,185,043,778 
+2024-12-15 15:55:14,203 - INFO - 開始處理三大法人買賣超資料...
+2024-12-15 15:55:14,231 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-15 15:55:14,235 - INFO - 三大法人買賣超資料處理完成：2024-11-25, 總合計 15,320,685,265 元
+2024-12-15 15:55:14,235 - INFO - 開始處理期貨資料...
+2024-12-15 15:55:14,240 - INFO - 期貨資料處理完成：2024-12-13
+2024-12-15 15:55:14,240 - INFO - 開始處理選擇權資料...
+2024-12-15 15:55:14,244 - INFO - 選擇權資料處理完成：2024-12-13
+2024-12-15 15:55:14,245 - INFO - 報告生成完成。
+2024-12-15 15:55:15,318 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-15 15:55:15,318 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-15 15:55:15,318 - INFO - 報告發送完成，準備結束程式...
+2024-12-15 15:55:15,320 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-15 07:55:14 UTC], next run at: 2024-12-15 07:55:14 UTC)" executed successfully
+2024-12-15 15:55:16,057 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-15 15:55:16,058 - INFO - Application is stopping. This might take a moment.
+2024-12-15 15:55:16,058 - INFO - Scheduler has been shut down
+2024-12-15 15:55:16,058 - INFO - Application.stop() complete
+2024-12-15 15:55:16,059 - INFO - Telegram Bot Stopped.
+2024-12-16 15:55:04,099 - INFO - Telegram Bot Starting...
+2024-12-16 15:55:04,130 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-16 15:55:04,130 - INFO - Polling...
+2024-12-16 15:55:04,920 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-16 15:55:05,168 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-16 15:55:05,169 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-16 15:55:05,169 - INFO - Scheduler started
+2024-12-16 15:55:05,169 - INFO - Application started
+2024-12-16 15:55:14,143 - INFO - Removed job f2584a123d494d88b2d9135b19cc02f1
+2024-12-16 15:55:14,143 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-16 07:55:14 UTC], next run at: 2024-12-16 07:55:14 UTC)" (scheduled at 2024-12-16 07:55:14.129508+00:00)
+2024-12-16 15:55:14,143 - INFO - 開始處理 TWSE 資料...
+2024-12-16 15:55:14,152 - INFO - TWSE 資料處理完成：2024-12-16, 成交金額 418,628,107,118 
+2024-12-16 15:55:14,152 - INFO - 開始處理三大法人買賣超資料...
+2024-12-16 15:55:14,161 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-16 15:55:14,165 - INFO - 三大法人買賣超資料處理完成：2024-12-16, 總合計 6,989,647,578 元
+2024-12-16 15:55:14,165 - INFO - 開始處理期貨資料...
+2024-12-16 15:55:14,177 - INFO - 期貨資料處理完成：2024-12-16
+2024-12-16 15:55:14,177 - INFO - 開始處理選擇權資料...
+2024-12-16 15:55:14,191 - INFO - 選擇權資料處理完成：2024-12-16
+2024-12-16 15:55:14,191 - INFO - 報告生成完成。
+2024-12-16 15:55:14,946 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-16 15:55:14,946 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-16 15:55:14,946 - INFO - 報告發送完成，準備結束程式...
+2024-12-16 15:55:14,950 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-16 07:55:14 UTC], next run at: 2024-12-16 07:55:14 UTC)" executed successfully
+2024-12-16 15:55:16,259 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-16 15:55:16,259 - INFO - Application is stopping. This might take a moment.
+2024-12-16 15:55:16,260 - INFO - Scheduler has been shut down
+2024-12-16 15:55:16,260 - INFO - Application.stop() complete
+2024-12-16 15:55:16,260 - INFO - Telegram Bot Stopped.
+2024-12-19 15:55:03,984 - INFO - Telegram Bot Starting...
+2024-12-19 15:55:04,010 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-19 15:55:04,010 - INFO - Polling...
+2024-12-19 15:55:05,324 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-19 15:55:05,577 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-19 15:55:05,578 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-19 15:55:05,578 - INFO - Scheduler started
+2024-12-19 15:55:05,578 - INFO - Application started
+2024-12-19 15:55:14,016 - INFO - Removed job 534d976e56bc4afead3bdf7544bfef76
+2024-12-19 15:55:14,016 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-19 07:55:14 UTC], next run at: 2024-12-19 07:55:14 UTC)" (scheduled at 2024-12-19 07:55:14.009905+00:00)
+2024-12-19 15:55:14,016 - INFO - 開始處理 TWSE 資料...
+2024-12-19 15:55:14,038 - INFO - TWSE 資料處理完成：2024-12-16, 成交金額 418,628,107,118 
+2024-12-19 15:55:14,038 - INFO - 開始處理三大法人買賣超資料...
+2024-12-19 15:55:14,056 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-19 15:55:14,060 - INFO - 三大法人買賣超資料處理完成：2024-12-19, 總合計 -41,576,470,356 元
+2024-12-19 15:55:14,060 - INFO - 開始處理期貨資料...
+2024-12-19 15:55:14,070 - INFO - 期貨資料處理完成：2024-12-19
+2024-12-19 15:55:14,070 - INFO - 開始處理選擇權資料...
+2024-12-19 15:55:14,116 - INFO - 選擇權資料處理完成：2024-12-19
+2024-12-19 15:55:14,116 - INFO - 報告生成完成。
+2024-12-19 15:55:14,877 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-19 15:55:14,877 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-19 15:55:14,877 - INFO - 報告發送完成，準備結束程式...
+2024-12-19 15:55:14,881 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-19 07:55:14 UTC], next run at: 2024-12-19 07:55:14 UTC)" executed successfully
+2024-12-19 15:55:15,609 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-19 15:55:15,609 - INFO - Application is stopping. This might take a moment.
+2024-12-19 15:55:15,609 - INFO - Scheduler has been shut down
+2024-12-19 15:55:15,609 - INFO - Application.stop() complete
+2024-12-19 15:55:15,610 - INFO - Telegram Bot Stopped.
+2024-12-19 17:59:32,142 - INFO - Telegram Bot Starting...
+2024-12-19 17:59:32,157 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-19 17:59:32,157 - INFO - Polling...
+2024-12-19 17:59:32,945 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-19 17:59:33,194 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-19 17:59:33,195 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-19 17:59:33,195 - INFO - Scheduler started
+2024-12-19 17:59:33,195 - INFO - Application started
+2024-12-19 17:59:42,171 - INFO - Removed job 02f57e5ef949401ebc375a7f9866296a
+2024-12-19 17:59:42,171 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-19 09:59:42 UTC], next run at: 2024-12-19 09:59:42 UTC)" (scheduled at 2024-12-19 09:59:42.157933+00:00)
+2024-12-19 17:59:42,171 - INFO - 開始處理 TWSE 資料...
+2024-12-19 17:59:42,181 - INFO - TWSE 資料處理完成：2024-12-19, 成交金額 422,126,123,640 
+2024-12-19 17:59:42,181 - INFO - 開始處理三大法人買賣超資料...
+2024-12-19 17:59:42,184 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-19 17:59:42,188 - INFO - 三大法人買賣超資料處理完成：2024-12-19, 總合計 -41,576,470,356 元
+2024-12-19 17:59:42,188 - INFO - 開始處理期貨資料...
+2024-12-19 17:59:42,192 - INFO - 期貨資料處理完成：2024-12-19
+2024-12-19 17:59:42,192 - INFO - 開始處理選擇權資料...
+2024-12-19 17:59:42,196 - INFO - 選擇權資料處理完成：2024-12-19
+2024-12-19 17:59:42,196 - INFO - 報告生成完成。
+2024-12-19 17:59:42,963 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-19 17:59:42,963 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-19 17:59:42,963 - INFO - 報告發送完成，準備結束程式...
+2024-12-19 17:59:42,965 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-19 09:59:42 UTC], next run at: 2024-12-19 09:59:42 UTC)" executed successfully
+2024-12-19 17:59:43,694 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-19 17:59:43,694 - INFO - Application is stopping. This might take a moment.
+2024-12-19 17:59:43,694 - INFO - Scheduler has been shut down
+2024-12-19 17:59:43,694 - INFO - Application.stop() complete
+2024-12-19 17:59:43,695 - INFO - Telegram Bot Stopped.
+2024-12-19 18:50:02,984 - INFO - Telegram Bot Starting...
+2024-12-19 18:50:03,002 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-19 18:50:03,002 - INFO - Polling...
+2024-12-19 18:50:03,781 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-19 18:50:04,028 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-19 18:50:04,029 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-19 18:50:04,029 - INFO - Scheduler started
+2024-12-19 18:50:04,029 - INFO - Application started
+2024-12-19 18:50:13,005 - INFO - Removed job d460c41aab1b42c7b1cb79832ed55146
+2024-12-19 18:50:13,005 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-19 10:50:13 UTC], next run at: 2024-12-19 10:50:13 UTC)" (scheduled at 2024-12-19 10:50:13.001819+00:00)
+2024-12-19 18:50:13,005 - INFO - 開始處理 TWSE 資料...
+2024-12-19 18:50:13,007 - INFO - TWSE 資料處理完成：2024-12-19, 成交金額 422,126,123,640 
+2024-12-19 18:50:13,008 - INFO - 開始處理三大法人買賣超資料...
+2024-12-19 18:50:13,011 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-19 18:50:13,015 - INFO - 三大法人買賣超資料處理完成：2024-12-19, 總合計 -41,576,470,356 元
+2024-12-19 18:50:13,015 - INFO - 開始處理期貨資料...
+2024-12-19 18:50:13,019 - INFO - 期貨資料處理完成：2024-12-19
+2024-12-19 18:50:13,020 - INFO - 開始處理選擇權資料...
+2024-12-19 18:50:13,023 - INFO - 選擇權資料處理完成：2024-12-19
+2024-12-19 18:50:13,023 - INFO - 報告生成完成。
+2024-12-19 18:50:13,752 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-19 18:50:13,753 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-19 18:50:13,753 - INFO - 報告發送完成，準備結束程式...
+2024-12-19 18:50:13,754 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-19 10:50:13 UTC], next run at: 2024-12-19 10:50:13 UTC)" executed successfully
+2024-12-19 18:50:14,508 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-19 18:50:14,509 - INFO - Application is stopping. This might take a moment.
+2024-12-19 18:50:14,509 - INFO - Scheduler has been shut down
+2024-12-19 18:50:14,509 - INFO - Application.stop() complete
+2024-12-19 18:50:14,509 - INFO - Telegram Bot Stopped.
+2024-12-19 18:50:46,730 - INFO - Telegram Bot Starting...
+2024-12-19 18:50:46,748 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-19 18:50:46,748 - INFO - Polling...
+2024-12-19 18:50:47,582 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-19 18:50:47,831 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-19 18:50:47,832 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-19 18:50:47,832 - INFO - Scheduler started
+2024-12-19 18:50:47,833 - INFO - Application started
+2024-12-19 18:50:56,770 - INFO - Removed job 5a6408f67f9741d8824ef9e22170661f
+2024-12-19 18:50:56,770 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-19 10:50:56 UTC], next run at: 2024-12-19 10:50:56 UTC)" (scheduled at 2024-12-19 10:50:56.747658+00:00)
+2024-12-19 18:50:56,770 - INFO - 開始處理 TWSE 資料...
+2024-12-19 18:50:56,772 - INFO - TWSE 資料處理完成：2024-12-19, 成交金額 422,126,123,640 
+2024-12-19 18:50:56,773 - INFO - 開始處理三大法人買賣超資料...
+2024-12-19 18:50:56,776 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-19 18:50:56,780 - INFO - 三大法人買賣超資料處理完成：2024-12-19, 總合計 -41,576,470,356 元
+2024-12-19 18:50:56,780 - INFO - 開始處理期貨資料...
+2024-12-19 18:50:56,785 - INFO - 期貨資料處理完成：2024-12-19
+2024-12-19 18:50:56,785 - INFO - 開始處理選擇權資料...
+2024-12-19 18:50:56,790 - INFO - 選擇權資料處理完成：2024-12-19
+2024-12-19 18:50:56,790 - INFO - 報告生成完成。
+2024-12-19 18:50:57,518 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-19 18:50:57,518 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-19 18:50:57,518 - INFO - 報告發送完成，準備結束程式...
+2024-12-19 18:50:57,519 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-19 10:50:56 UTC], next run at: 2024-12-19 10:50:56 UTC)" executed successfully
+2024-12-19 18:50:58,262 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-19 18:50:58,262 - INFO - Application is stopping. This might take a moment.
+2024-12-19 18:50:58,262 - INFO - Scheduler has been shut down
+2024-12-19 18:50:58,262 - INFO - Application.stop() complete
+2024-12-19 18:50:58,263 - INFO - Telegram Bot Stopped.
+2024-12-20 15:55:06,455 - INFO - Telegram Bot Starting...
+2024-12-20 15:55:06,502 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-20 15:55:06,502 - INFO - Polling...
+2024-12-20 15:55:07,383 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-20 15:55:07,685 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-20 15:55:07,687 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-20 15:55:07,687 - INFO - Scheduler started
+2024-12-20 15:55:07,687 - INFO - Application started
+2024-12-20 15:55:16,503 - INFO - Removed job 52f09c6e0f6e43bf8090d6d3bd0654f9
+2024-12-20 15:55:16,504 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-20 07:55:16 UTC], next run at: 2024-12-20 07:55:16 UTC)" (scheduled at 2024-12-20 07:55:16.501446+00:00)
+2024-12-20 15:55:16,506 - INFO - 開始處理 TWSE 資料...
+2024-12-20 15:55:16,529 - INFO - TWSE 資料處理完成：2024-12-20, 成交金額 475,867,215,953 
+2024-12-20 15:55:16,529 - INFO - 開始處理三大法人買賣超資料...
+2024-12-20 15:55:16,545 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-20 15:55:16,557 - INFO - 三大法人買賣超資料處理完成：2024-12-20, 總合計 -55,049,145,197 元
+2024-12-20 15:55:16,557 - INFO - 開始處理期貨資料...
+2024-12-20 15:55:16,579 - INFO - 期貨資料處理完成：2024-12-20
+2024-12-20 15:55:16,579 - INFO - 開始處理選擇權資料...
+2024-12-20 15:55:16,605 - INFO - 選擇權資料處理完成：2024-12-20
+2024-12-20 15:55:16,605 - INFO - 報告生成完成。
+2024-12-20 15:55:17,377 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-20 15:55:17,378 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-20 15:55:17,378 - INFO - 報告發送完成，準備結束程式...
+2024-12-20 15:55:17,384 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-20 07:55:16 UTC], next run at: 2024-12-20 07:55:16 UTC)" executed successfully
+2024-12-20 15:55:18,114 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-20 15:55:18,115 - INFO - Application is stopping. This might take a moment.
+2024-12-20 15:55:18,115 - INFO - Scheduler has been shut down
+2024-12-20 15:55:18,115 - INFO - Application.stop() complete
+2024-12-20 15:55:18,118 - INFO - Telegram Bot Stopped.
+2024-12-21 15:55:03,899 - INFO - Telegram Bot Starting...
+2024-12-21 15:55:03,915 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-21 15:55:03,915 - INFO - Polling...
+2024-12-21 15:55:04,725 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-21 15:55:04,976 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-21 15:55:04,977 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-21 15:55:04,977 - INFO - Scheduler started
+2024-12-21 15:55:04,978 - INFO - Application started
+2024-12-21 15:55:13,932 - INFO - Removed job 81bb62b215b249ea8604adc29556ffa0
+2024-12-21 15:55:13,932 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-21 07:55:13 UTC], next run at: 2024-12-21 07:55:13 UTC)" (scheduled at 2024-12-21 07:55:13.914389+00:00)
+2024-12-21 15:55:13,932 - INFO - 開始處理 TWSE 資料...
+2024-12-21 15:55:13,934 - INFO - TWSE 資料處理完成：2024-12-20, 成交金額 475,867,215,953 
+2024-12-21 15:55:13,934 - INFO - 開始處理三大法人買賣超資料...
+2024-12-21 15:55:13,957 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-21 15:55:13,961 - INFO - 三大法人買賣超資料處理完成：2024-12-20, 總合計 -55,049,145,197 元
+2024-12-21 15:55:13,961 - INFO - 開始處理期貨資料...
+2024-12-21 15:55:13,966 - INFO - 期貨資料處理完成：2024-12-20
+2024-12-21 15:55:13,966 - INFO - 開始處理選擇權資料...
+2024-12-21 15:55:13,971 - INFO - 選擇權資料處理完成：2024-12-20
+2024-12-21 15:55:13,971 - INFO - 報告生成完成。
+2024-12-21 15:55:14,734 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-21 15:55:14,734 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-21 15:55:14,734 - INFO - 報告發送完成，準備結束程式...
+2024-12-21 15:55:14,737 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-21 07:55:13 UTC], next run at: 2024-12-21 07:55:13 UTC)" executed successfully
+2024-12-21 15:55:15,494 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-21 15:55:15,495 - INFO - Application is stopping. This might take a moment.
+2024-12-21 15:55:15,495 - INFO - Scheduler has been shut down
+2024-12-21 15:55:15,495 - INFO - Application.stop() complete
+2024-12-21 15:55:15,495 - INFO - Telegram Bot Stopped.
+2024-12-22 15:55:04,701 - INFO - Telegram Bot Starting...
+2024-12-22 15:55:04,734 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-22 15:55:04,734 - INFO - Polling...
+2024-12-22 15:55:05,555 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-22 15:55:05,804 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-22 15:55:05,805 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-22 15:55:05,806 - INFO - Scheduler started
+2024-12-22 15:55:05,806 - INFO - Application started
+2024-12-22 15:55:14,741 - INFO - Removed job 3ba6680edb584309a276893d35346b7e
+2024-12-22 15:55:14,741 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-22 07:55:14 UTC], next run at: 2024-12-22 07:55:14 UTC)" (scheduled at 2024-12-22 07:55:14.733507+00:00)
+2024-12-22 15:55:14,768 - INFO - 開始處理 TWSE 資料...
+2024-12-22 15:55:14,772 - INFO - TWSE 資料處理完成：2024-12-20, 成交金額 475,867,215,953 
+2024-12-22 15:55:14,772 - INFO - 開始處理三大法人買賣超資料...
+2024-12-22 15:55:14,789 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-22 15:55:14,797 - INFO - 三大法人買賣超資料處理完成：2024-12-20, 總合計 -55,049,145,197 元
+2024-12-22 15:55:14,797 - INFO - 開始處理期貨資料...
+2024-12-22 15:55:14,804 - INFO - 期貨資料處理完成：2024-12-20
+2024-12-22 15:55:14,804 - INFO - 開始處理選擇權資料...
+2024-12-22 15:55:14,809 - INFO - 選擇權資料處理完成：2024-12-20
+2024-12-22 15:55:14,809 - INFO - 報告生成完成。
+2024-12-22 15:55:15,559 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-22 15:55:15,560 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-22 15:55:15,560 - INFO - 報告發送完成，準備結束程式...
+2024-12-22 15:55:15,563 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-22 07:55:14 UTC], next run at: 2024-12-22 07:55:14 UTC)" executed successfully
+2024-12-22 15:55:16,317 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-22 15:55:16,317 - INFO - Application is stopping. This might take a moment.
+2024-12-22 15:55:16,317 - INFO - Scheduler has been shut down
+2024-12-22 15:55:16,318 - INFO - Application.stop() complete
+2024-12-22 15:55:16,318 - INFO - Telegram Bot Stopped.
+2024-12-23 15:55:04,224 - INFO - Telegram Bot Starting...
+2024-12-23 15:55:04,253 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-23 15:55:04,253 - INFO - Polling...
+2024-12-23 15:55:05,104 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-23 15:55:05,355 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-23 15:55:05,356 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-23 15:55:05,356 - INFO - Scheduler started
+2024-12-23 15:55:05,356 - INFO - Application started
+2024-12-23 15:55:14,264 - INFO - Removed job c7d12f77956047ea9baffb6ed66d8d0d
+2024-12-23 15:55:14,264 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-23 07:55:14 UTC], next run at: 2024-12-23 07:55:14 UTC)" (scheduled at 2024-12-23 07:55:14.252618+00:00)
+2024-12-23 15:55:14,264 - INFO - 開始處理 TWSE 資料...
+2024-12-23 15:55:14,293 - INFO - TWSE 資料處理完成：2024-12-20, 成交金額 475,867,215,953 
+2024-12-23 15:55:14,293 - INFO - 開始處理三大法人買賣超資料...
+2024-12-23 15:55:14,302 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-23 15:55:14,307 - INFO - 三大法人買賣超資料處理完成：2024-12-23, 總合計 45,104,314,246 元
+2024-12-23 15:55:14,307 - INFO - 開始處理期貨資料...
+2024-12-23 15:55:14,316 - INFO - 期貨資料處理完成：2024-12-23
+2024-12-23 15:55:14,317 - INFO - 開始處理選擇權資料...
+2024-12-23 15:55:14,327 - INFO - 選擇權資料處理完成：2024-12-23
+2024-12-23 15:55:14,327 - INFO - 報告生成完成。
+2024-12-23 15:55:15,086 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-23 15:55:15,086 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-23 15:55:15,086 - INFO - 報告發送完成，準備結束程式...
+2024-12-23 15:55:15,090 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-23 07:55:14 UTC], next run at: 2024-12-23 07:55:14 UTC)" executed successfully
+2024-12-23 15:55:15,830 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-23 15:55:15,831 - INFO - Application is stopping. This might take a moment.
+2024-12-23 15:55:15,831 - INFO - Scheduler has been shut down
+2024-12-23 15:55:15,831 - INFO - Application.stop() complete
+2024-12-23 15:55:15,831 - INFO - Telegram Bot Stopped.
+2024-12-26 15:55:05,566 - INFO - Telegram Bot Starting...
+2024-12-26 15:55:05,603 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-26 15:55:05,603 - INFO - Polling...
+2024-12-26 15:55:07,056 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-26 15:55:07,309 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-26 15:55:07,310 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-26 15:55:07,310 - INFO - Scheduler started
+2024-12-26 15:55:07,310 - INFO - Application started
+2024-12-26 15:55:15,615 - INFO - Removed job 308758fb44da423f92147131fcb73258
+2024-12-26 15:55:15,615 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-26 07:55:15 UTC], next run at: 2024-12-26 07:55:15 UTC)" (scheduled at 2024-12-26 07:55:15.602168+00:00)
+2024-12-26 15:55:15,616 - INFO - 開始處理 TWSE 資料...
+2024-12-26 15:55:15,629 - INFO - TWSE 資料處理完成：2024-12-26, 成交金額 306,277,739,798 
+2024-12-26 15:55:15,629 - INFO - 開始處理三大法人買賣超資料...
+2024-12-26 15:55:15,643 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-26 15:55:15,649 - INFO - 三大法人買賣超資料處理完成：2024-12-26, 總合計 5,156,915,397 元
+2024-12-26 15:55:15,649 - INFO - 開始處理期貨資料...
+2024-12-26 15:55:15,668 - INFO - 期貨資料處理完成：2024-12-26
+2024-12-26 15:55:15,668 - INFO - 開始處理選擇權資料...
+2024-12-26 15:55:15,687 - INFO - 選擇權資料處理完成：2024-12-26
+2024-12-26 15:55:15,687 - INFO - 報告生成完成。
+2024-12-26 15:55:16,456 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-26 15:55:16,457 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-26 15:55:16,457 - INFO - 報告發送完成，準備結束程式...
+2024-12-26 15:55:16,461 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-26 07:55:15 UTC], next run at: 2024-12-26 07:55:15 UTC)" executed successfully
+2024-12-26 15:55:17,188 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-26 15:55:17,188 - INFO - Application is stopping. This might take a moment.
+2024-12-26 15:55:17,189 - INFO - Scheduler has been shut down
+2024-12-26 15:55:17,189 - INFO - Application.stop() complete
+2024-12-26 15:55:17,189 - INFO - Telegram Bot Stopped.
+2024-12-27 15:55:04,138 - INFO - Telegram Bot Starting...
+2024-12-27 15:55:04,172 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-27 15:55:04,172 - INFO - Polling...
+2024-12-27 15:55:04,986 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-27 15:55:05,240 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-27 15:55:05,241 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-27 15:55:05,241 - INFO - Scheduler started
+2024-12-27 15:55:05,242 - INFO - Application started
+2024-12-27 15:55:14,178 - INFO - Removed job ac0965b53d5c4dadb069044c09ac925a
+2024-12-27 15:55:14,178 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-27 07:55:14 UTC], next run at: 2024-12-27 07:55:14 UTC)" (scheduled at 2024-12-27 07:55:14.171981+00:00)
+2024-12-27 15:55:14,178 - INFO - 開始處理 TWSE 資料...
+2024-12-27 15:55:14,188 - INFO - TWSE 資料處理完成：2024-12-27, 成交金額 291,442,308,502 
+2024-12-27 15:55:14,188 - INFO - 開始處理三大法人買賣超資料...
+2024-12-27 15:55:14,197 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-27 15:55:14,201 - INFO - 三大法人買賣超資料處理完成：2024-12-27, 總合計 4,989,680,594 元
+2024-12-27 15:55:14,201 - INFO - 開始處理期貨資料...
+2024-12-27 15:55:14,212 - INFO - 期貨資料處理完成：2024-12-27
+2024-12-27 15:55:14,212 - INFO - 開始處理選擇權資料...
+2024-12-27 15:55:14,223 - INFO - 選擇權資料處理完成：2024-12-27
+2024-12-27 15:55:14,223 - INFO - 報告生成完成。
+2024-12-27 15:55:14,961 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-27 15:55:14,962 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-27 15:55:14,962 - INFO - 報告發送完成，準備結束程式...
+2024-12-27 15:55:14,964 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-27 07:55:14 UTC], next run at: 2024-12-27 07:55:14 UTC)" executed successfully
+2024-12-27 15:55:15,717 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-27 15:55:15,717 - INFO - Application is stopping. This might take a moment.
+2024-12-27 15:55:15,718 - INFO - Scheduler has been shut down
+2024-12-27 15:55:15,718 - INFO - Application.stop() complete
+2024-12-27 15:55:15,718 - INFO - Telegram Bot Stopped.
+2024-12-28 15:55:06,559 - INFO - Telegram Bot Starting...
+2024-12-28 15:55:06,591 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-12-28 15:55:06,591 - INFO - Polling...
+2024-12-28 15:55:07,800 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2024-12-28 15:55:08,070 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 15:55:08,072 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2024-12-28 15:55:08,072 - INFO - Scheduler started
+2024-12-28 15:55:08,072 - INFO - Application started
+2024-12-28 15:55:16,603 - INFO - Removed job 26c54982665a4a84b61f109318c4debc
+2024-12-28 15:55:16,603 - INFO - Running job "send_daily_report_and_exit (trigger: date[2024-12-28 07:55:16 UTC], next run at: 2024-12-28 07:55:16 UTC)" (scheduled at 2024-12-28 07:55:16.589003+00:00)
+2024-12-28 15:55:16,604 - INFO - 開始處理 TWSE 資料...
+2024-12-28 15:55:16,618 - INFO - TWSE 資料處理完成：2024-12-27, 成交金額 291,442,308,502 
+2024-12-28 15:55:16,618 - INFO - 開始處理三大法人買賣超資料...
+2024-12-28 15:55:16,640 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2024-12-28 15:55:16,645 - INFO - 三大法人買賣超資料處理完成：2024-12-27, 總合計 4,989,680,594 元
+2024-12-28 15:55:16,645 - INFO - 開始處理期貨資料...
+2024-12-28 15:55:16,650 - INFO - 期貨資料處理完成：2024-12-27
+2024-12-28 15:55:16,651 - INFO - 開始處理選擇權資料...
+2024-12-28 15:55:16,655 - INFO - 選擇權資料處理完成：2024-12-27
+2024-12-28 15:55:16,655 - INFO - 報告生成完成。
+2024-12-28 15:55:17,400 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2024-12-28 15:55:17,400 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2024-12-28 15:55:17,400 - INFO - 報告發送完成，準備結束程式...
+2024-12-28 15:55:17,402 - INFO - Job "send_daily_report_and_exit (trigger: date[2024-12-28 07:55:16 UTC], next run at: 2024-12-28 07:55:16 UTC)" executed successfully
+2024-12-28 15:55:18,137 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 15:55:18,138 - INFO - Application is stopping. This might take a moment.
+2024-12-28 15:55:18,138 - INFO - Scheduler has been shut down
+2024-12-28 15:55:18,138 - INFO - Application.stop() complete
+2024-12-28 15:55:18,139 - INFO - Telegram Bot Stopped.
+2025-01-01 15:55:03,742 - INFO - Telegram Bot Starting...
+2025-01-01 15:55:03,772 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-01 15:55:03,772 - INFO - Polling...
+2025-01-01 15:55:05,184 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-01 15:55:05,470 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-01 15:55:05,471 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-01 15:55:05,471 - INFO - Scheduler started
+2025-01-01 15:55:05,471 - INFO - Application started
+2025-01-01 15:55:13,783 - INFO - Removed job 6ca223afc9274e72a930146887aa3ad1
+2025-01-01 15:55:13,783 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-01 07:55:13 UTC], next run at: 2025-01-01 07:55:13 UTC)" (scheduled at 2025-01-01 07:55:13.770504+00:00)
+2025-01-01 15:55:13,783 - INFO - 開始處理 TWSE 資料...
+2025-01-01 15:55:13,803 - INFO - TWSE 資料處理完成：2024-12-27, 成交金額 291,442,308,502 
+2025-01-01 15:55:13,803 - INFO - 開始處理三大法人買賣超資料...
+2025-01-01 15:55:13,824 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-01 15:55:13,829 - INFO - 三大法人買賣超資料處理完成：2024-12-27, 總合計 4,989,680,594 元
+2025-01-01 15:55:13,830 - INFO - 開始處理期貨資料...
+2025-01-01 15:55:13,842 - INFO - 期貨資料處理完成：2024-12-31
+2025-01-01 15:55:13,842 - INFO - 開始處理選擇權資料...
+2025-01-01 15:55:13,855 - INFO - 選擇權資料處理完成：2024-12-31
+2025-01-01 15:55:13,855 - INFO - 報告生成完成。
+2025-01-01 15:55:14,716 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-01 15:55:14,717 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-01 15:55:14,717 - INFO - 報告發送完成，準備結束程式...
+2025-01-01 15:55:14,721 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-01 07:55:13 UTC], next run at: 2025-01-01 07:55:13 UTC)" executed successfully
+2025-01-01 15:55:15,573 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-01 15:55:15,573 - INFO - Application is stopping. This might take a moment.
+2025-01-01 15:55:15,573 - INFO - Scheduler has been shut down
+2025-01-01 15:55:15,573 - INFO - Application.stop() complete
+2025-01-01 15:55:15,574 - INFO - Telegram Bot Stopped.
+2025-01-03 15:55:04,110 - INFO - Telegram Bot Starting...
+2025-01-03 15:55:04,141 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-03 15:55:04,141 - INFO - Polling...
+2025-01-03 15:55:05,050 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-03 15:55:05,337 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-03 15:55:05,338 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-03 15:55:05,338 - INFO - Scheduler started
+2025-01-03 15:55:05,338 - INFO - Application started
+2025-01-03 15:55:14,148 - INFO - Removed job d2d106e42431441fb543d215c31ccb5f
+2025-01-03 15:55:14,148 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-03 07:55:14 UTC], next run at: 2025-01-03 07:55:14 UTC)" (scheduled at 2025-01-03 07:55:14.141914+00:00)
+2025-01-03 15:55:14,148 - INFO - 開始處理 TWSE 資料...
+2025-01-03 15:55:14,164 - INFO - TWSE 資料處理完成：2024-12-27, 成交金額 291,442,308,502 
+2025-01-03 15:55:14,164 - INFO - 開始處理三大法人買賣超資料...
+2025-01-03 15:55:14,186 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-03 15:55:14,190 - INFO - 三大法人買賣超資料處理完成：2024-12-27, 總合計 4,989,680,594 元
+2025-01-03 15:55:14,190 - INFO - 開始處理期貨資料...
+2025-01-03 15:55:14,201 - INFO - 期貨資料處理完成：2025-01-03
+2025-01-03 15:55:14,201 - INFO - 開始處理選擇權資料...
+2025-01-03 15:55:14,210 - INFO - 選擇權資料處理完成：2025-01-03
+2025-01-03 15:55:14,211 - INFO - 報告生成完成。
+2025-01-03 15:55:15,080 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-03 15:55:15,081 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-03 15:55:15,081 - INFO - 報告發送完成，準備結束程式...
+2025-01-03 15:55:15,083 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-03 07:55:14 UTC], next run at: 2025-01-03 07:55:14 UTC)" executed successfully
+2025-01-03 15:55:15,949 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-03 15:55:15,950 - INFO - Application is stopping. This might take a moment.
+2025-01-03 15:55:15,950 - INFO - Scheduler has been shut down
+2025-01-03 15:55:15,950 - INFO - Application.stop() complete
+2025-01-03 15:55:15,950 - INFO - Telegram Bot Stopped.
+2025-01-04 15:55:04,691 - INFO - Telegram Bot Starting...
+2025-01-04 15:55:04,709 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-04 15:55:04,709 - INFO - Polling...
+2025-01-04 15:55:05,623 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-04 15:55:05,925 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-04 15:55:05,926 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-04 15:55:05,926 - INFO - Scheduler started
+2025-01-04 15:55:05,926 - INFO - Application started
+2025-01-04 15:55:14,719 - INFO - Removed job 4b41442ce61848028c34c39766f04c03
+2025-01-04 15:55:14,719 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-04 07:55:14 UTC], next run at: 2025-01-04 07:55:14 UTC)" (scheduled at 2025-01-04 07:55:14.708532+00:00)
+2025-01-04 15:55:14,719 - INFO - 開始處理 TWSE 資料...
+2025-01-04 15:55:14,730 - INFO - TWSE 資料處理完成：2025-01-03, 成交金額 337,042,271,244 
+2025-01-04 15:55:14,730 - INFO - 開始處理三大法人買賣超資料...
+2025-01-04 15:55:14,755 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-04 15:55:14,760 - INFO - 三大法人買賣超資料處理完成：2024-12-27, 總合計 4,989,680,594 元
+2025-01-04 15:55:14,760 - INFO - 開始處理期貨資料...
+2025-01-04 15:55:14,764 - INFO - 期貨資料處理完成：2025-01-03
+2025-01-04 15:55:14,764 - INFO - 開始處理選擇權資料...
+2025-01-04 15:55:14,769 - INFO - 選擇權資料處理完成：2025-01-03
+2025-01-04 15:55:14,769 - INFO - 報告生成完成。
+2025-01-04 15:55:15,636 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-04 15:55:15,636 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-04 15:55:15,636 - INFO - 報告發送完成，準備結束程式...
+2025-01-04 15:55:15,638 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-04 07:55:14 UTC], next run at: 2025-01-04 07:55:14 UTC)" executed successfully
+2025-01-04 15:55:16,531 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-04 15:55:16,531 - INFO - Application is stopping. This might take a moment.
+2025-01-04 15:55:16,531 - INFO - Scheduler has been shut down
+2025-01-04 15:55:16,531 - INFO - Application.stop() complete
+2025-01-04 15:55:16,532 - INFO - Telegram Bot Stopped.
+2025-01-05 15:55:04,023 - INFO - Telegram Bot Starting...
+2025-01-05 15:55:04,039 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-05 15:55:04,039 - INFO - Polling...
+2025-01-05 15:55:04,928 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-05 15:55:05,215 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-05 15:55:05,216 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-05 15:55:05,216 - INFO - Scheduler started
+2025-01-05 15:55:05,217 - INFO - Application started
+2025-01-05 15:55:14,050 - INFO - Removed job 354a3d3c056442ef8ebbb15f49a05800
+2025-01-05 15:55:14,050 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-05 07:55:14 UTC], next run at: 2025-01-05 07:55:14 UTC)" (scheduled at 2025-01-05 07:55:14.038166+00:00)
+2025-01-05 15:55:14,050 - INFO - 開始處理 TWSE 資料...
+2025-01-05 15:55:14,052 - INFO - TWSE 資料處理完成：2025-01-03, 成交金額 337,042,271,244 
+2025-01-05 15:55:14,052 - INFO - 開始處理三大法人買賣超資料...
+2025-01-05 15:55:14,079 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-05 15:55:14,084 - INFO - 三大法人買賣超資料處理完成：2024-12-27, 總合計 4,989,680,594 元
+2025-01-05 15:55:14,084 - INFO - 開始處理期貨資料...
+2025-01-05 15:55:14,088 - INFO - 期貨資料處理完成：2025-01-03
+2025-01-05 15:55:14,088 - INFO - 開始處理選擇權資料...
+2025-01-05 15:55:14,093 - INFO - 選擇權資料處理完成：2025-01-03
+2025-01-05 15:55:14,093 - INFO - 報告生成完成。
+2025-01-05 15:55:14,943 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-05 15:55:14,944 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-05 15:55:14,944 - INFO - 報告發送完成，準備結束程式...
+2025-01-05 15:55:14,947 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-05 07:55:14 UTC], next run at: 2025-01-05 07:55:14 UTC)" executed successfully
+2025-01-05 15:55:15,805 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 15:55:15,805 - INFO - Application is stopping. This might take a moment.
+2025-01-05 15:55:15,806 - INFO - Scheduler has been shut down
+2025-01-05 15:55:15,806 - INFO - Application.stop() complete
+2025-01-05 15:55:15,806 - INFO - Telegram Bot Stopped.
+2025-01-06 15:55:04,119 - INFO - Telegram Bot Starting...
+2025-01-06 15:55:04,157 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-06 15:55:04,157 - INFO - Polling...
+2025-01-06 15:55:05,056 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-06 15:55:05,346 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-06 15:55:05,347 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-06 15:55:05,347 - INFO - Scheduler started
+2025-01-06 15:55:05,347 - INFO - Application started
+2025-01-06 15:55:14,165 - INFO - Removed job 21a89f8935b7480e8ef3f62386bd8edd
+2025-01-06 15:55:14,165 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-06 07:55:14 UTC], next run at: 2025-01-06 07:55:14 UTC)" (scheduled at 2025-01-06 07:55:14.156657+00:00)
+2025-01-06 15:55:14,165 - INFO - 開始處理 TWSE 資料...
+2025-01-06 15:55:14,177 - INFO - TWSE 資料處理完成：2025-01-06, 成交金額 417,956,430,030 
+2025-01-06 15:55:14,177 - INFO - 開始處理三大法人買賣超資料...
+2025-01-06 15:55:14,190 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-06 15:55:14,195 - INFO - 三大法人買賣超資料處理完成：2025-01-06, 總合計 64,403,432,101 元
+2025-01-06 15:55:14,195 - INFO - 開始處理期貨資料...
+2025-01-06 15:55:14,207 - INFO - 期貨資料處理完成：2025-01-06
+2025-01-06 15:55:14,207 - INFO - 開始處理選擇權資料...
+2025-01-06 15:55:14,217 - INFO - 選擇權資料處理完成：2025-01-06
+2025-01-06 15:55:14,217 - INFO - 報告生成完成。
+2025-01-06 15:55:15,077 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-06 15:55:15,077 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-06 15:55:15,077 - INFO - 報告發送完成，準備結束程式...
+2025-01-06 15:55:15,079 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-06 07:55:14 UTC], next run at: 2025-01-06 07:55:14 UTC)" executed successfully
+2025-01-06 15:55:15,925 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-06 15:55:15,925 - INFO - Application is stopping. This might take a moment.
+2025-01-06 15:55:15,925 - INFO - Scheduler has been shut down
+2025-01-06 15:55:15,926 - INFO - Application.stop() complete
+2025-01-06 15:55:15,926 - INFO - Telegram Bot Stopped.
+2025-01-07 15:55:05,037 - INFO - Telegram Bot Starting...
+2025-01-07 15:55:05,071 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-07 15:55:05,071 - INFO - Polling...
+2025-01-07 15:55:05,985 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-07 15:55:06,270 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-07 15:55:06,271 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-07 15:55:06,271 - INFO - Scheduler started
+2025-01-07 15:55:06,271 - INFO - Application started
+2025-01-07 15:55:15,078 - INFO - Removed job 362ad8f8ec544f79a259720a1a8d267b
+2025-01-07 15:55:15,078 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-07 07:55:15 UTC], next run at: 2025-01-07 07:55:15 UTC)" (scheduled at 2025-01-07 07:55:15.069780+00:00)
+2025-01-07 15:55:15,078 - INFO - 開始處理 TWSE 資料...
+2025-01-07 15:55:15,099 - INFO - TWSE 資料處理完成：2025-01-06, 成交金額 417,956,430,030 
+2025-01-07 15:55:15,099 - INFO - 開始處理三大法人買賣超資料...
+2025-01-07 15:55:15,142 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-07 15:55:15,146 - INFO - 三大法人買賣超資料處理完成：2025-01-06, 總合計 64,403,432,101 元
+2025-01-07 15:55:15,146 - INFO - 開始處理期貨資料...
+2025-01-07 15:55:15,162 - INFO - 期貨資料處理完成：2025-01-07
+2025-01-07 15:55:15,162 - INFO - 開始處理選擇權資料...
+2025-01-07 15:55:15,181 - INFO - 選擇權資料處理完成：2025-01-07
+2025-01-07 15:55:15,181 - INFO - 報告生成完成。
+2025-01-07 15:55:16,040 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-07 15:55:16,040 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-07 15:55:16,040 - INFO - 報告發送完成，準備結束程式...
+2025-01-07 15:55:16,043 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-07 07:55:15 UTC], next run at: 2025-01-07 07:55:15 UTC)" executed successfully
+2025-01-07 15:55:16,891 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-07 15:55:16,892 - INFO - Application is stopping. This might take a moment.
+2025-01-07 15:55:16,892 - INFO - Scheduler has been shut down
+2025-01-07 15:55:16,893 - INFO - Application.stop() complete
+2025-01-07 15:55:16,893 - INFO - Telegram Bot Stopped.
+2025-01-09 15:55:03,703 - INFO - Telegram Bot Starting...
+2025-01-09 15:55:03,729 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-09 15:55:03,729 - INFO - Polling...
+2025-01-09 15:55:04,621 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-09 15:55:04,902 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-09 15:55:04,903 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-09 15:55:04,903 - INFO - Scheduler started
+2025-01-09 15:55:04,903 - INFO - Application started
+2025-01-09 15:55:13,742 - INFO - Removed job bae9981681f04f71aba98db8a19a1cc0
+2025-01-09 15:55:13,742 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-09 07:55:13 UTC], next run at: 2025-01-09 07:55:13 UTC)" (scheduled at 2025-01-09 07:55:13.728874+00:00)
+2025-01-09 15:55:13,742 - INFO - 開始處理 TWSE 資料...
+2025-01-09 15:55:13,752 - INFO - TWSE 資料處理完成：2025-01-09, 成交金額 390,510,487,902 
+2025-01-09 15:55:13,752 - INFO - 開始處理三大法人買賣超資料...
+2025-01-09 15:55:13,796 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-09 15:55:13,801 - INFO - 三大法人買賣超資料處理完成：2025-01-06, 總合計 64,403,432,101 元
+2025-01-09 15:55:13,801 - INFO - 開始處理期貨資料...
+2025-01-09 15:55:13,812 - INFO - 期貨資料處理完成：2025-01-09
+2025-01-09 15:55:13,812 - INFO - 開始處理選擇權資料...
+2025-01-09 15:55:13,824 - INFO - 選擇權資料處理完成：2025-01-09
+2025-01-09 15:55:13,824 - INFO - 報告生成完成。
+2025-01-09 15:55:14,719 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-09 15:55:14,719 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-09 15:55:14,719 - INFO - 報告發送完成，準備結束程式...
+2025-01-09 15:55:14,721 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-09 07:55:13 UTC], next run at: 2025-01-09 07:55:13 UTC)" executed successfully
+2025-01-09 15:55:15,599 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-09 15:55:15,600 - INFO - Application is stopping. This might take a moment.
+2025-01-09 15:55:15,600 - INFO - Scheduler has been shut down
+2025-01-09 15:55:15,600 - INFO - Application.stop() complete
+2025-01-09 15:55:15,601 - INFO - Telegram Bot Stopped.
+2025-01-12 15:55:03,820 - INFO - Telegram Bot Starting...
+2025-01-12 15:55:03,850 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-12 15:55:03,850 - INFO - Polling...
+2025-01-12 15:55:05,251 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-12 15:55:05,536 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-12 15:55:05,537 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-12 15:55:05,537 - INFO - Scheduler started
+2025-01-12 15:55:05,537 - INFO - Application started
+2025-01-12 15:55:13,862 - INFO - Removed job 7fbbf4fc566e4a5394ad8d1fef7cbbfb
+2025-01-12 15:55:13,862 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-12 07:55:13 UTC], next run at: 2025-01-12 07:55:13 UTC)" (scheduled at 2025-01-12 07:55:13.849906+00:00)
+2025-01-12 15:55:13,862 - INFO - 開始處理 TWSE 資料...
+2025-01-12 15:55:13,872 - INFO - TWSE 資料處理完成：2025-01-10, 成交金額 342,751,185,595 
+2025-01-12 15:55:13,872 - INFO - 開始處理三大法人買賣超資料...
+2025-01-12 15:55:13,894 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-12 15:55:13,901 - INFO - 三大法人買賣超資料處理完成：2025-01-06, 總合計 64,403,432,101 元
+2025-01-12 15:55:13,901 - INFO - 開始處理期貨資料...
+2025-01-12 15:55:13,913 - INFO - 期貨資料處理完成：2025-01-10
+2025-01-12 15:55:13,913 - INFO - 開始處理選擇權資料...
+2025-01-12 15:55:13,924 - INFO - 選擇權資料處理完成：2025-01-10
+2025-01-12 15:55:13,924 - INFO - 報告生成完成。
+2025-01-12 15:55:14,780 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-12 15:55:14,781 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-12 15:55:14,781 - INFO - 報告發送完成，準備結束程式...
+2025-01-12 15:55:14,782 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-12 07:55:13 UTC], next run at: 2025-01-12 07:55:13 UTC)" executed successfully
+2025-01-12 15:55:15,627 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-12 15:55:15,628 - INFO - Application is stopping. This might take a moment.
+2025-01-12 15:55:15,628 - INFO - Scheduler has been shut down
+2025-01-12 15:55:15,628 - INFO - Application.stop() complete
+2025-01-12 15:55:15,629 - INFO - Telegram Bot Stopped.
+2025-01-16 15:55:04,250 - INFO - Telegram Bot Starting...
+2025-01-16 15:55:04,267 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-16 15:55:04,267 - INFO - Polling...
+2025-01-16 15:55:05,683 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-16 15:55:05,969 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-16 15:55:05,970 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-16 15:55:05,970 - INFO - Scheduler started
+2025-01-16 15:55:05,970 - INFO - Application started
+2025-01-16 15:55:14,271 - INFO - Removed job 68850d9e592a4112a5e230336b3493f4
+2025-01-16 15:55:14,271 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-16 07:55:14 UTC], next run at: 2025-01-16 07:55:14 UTC)" (scheduled at 2025-01-16 07:55:14.265264+00:00)
+2025-01-16 15:55:14,271 - INFO - 開始處理 TWSE 資料...
+2025-01-16 15:55:14,282 - INFO - TWSE 資料處理完成：2025-01-16, 成交金額 339,356,010,755 
+2025-01-16 15:55:14,282 - INFO - 開始處理三大法人買賣超資料...
+2025-01-16 15:55:14,308 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-16 15:55:14,312 - INFO - 三大法人買賣超資料處理完成：2025-01-06, 總合計 64,403,432,101 元
+2025-01-16 15:55:14,312 - INFO - 開始處理期貨資料...
+2025-01-16 15:55:14,324 - INFO - 期貨資料處理完成：2025-01-16
+2025-01-16 15:55:14,324 - INFO - 開始處理選擇權資料...
+2025-01-16 15:55:14,335 - INFO - 選擇權資料處理完成：2025-01-16
+2025-01-16 15:55:14,335 - INFO - 報告生成完成。
+2025-01-16 15:55:15,211 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-16 15:55:15,212 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-16 15:55:15,212 - INFO - 報告發送完成，準備結束程式...
+2025-01-16 15:55:15,215 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-16 07:55:14 UTC], next run at: 2025-01-16 07:55:14 UTC)" executed successfully
+2025-01-16 15:55:16,070 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-16 15:55:16,070 - INFO - Application is stopping. This might take a moment.
+2025-01-16 15:55:16,071 - INFO - Scheduler has been shut down
+2025-01-16 15:55:16,071 - INFO - Application.stop() complete
+2025-01-16 15:55:16,071 - INFO - Telegram Bot Stopped.
+2025-01-20 15:55:04,277 - INFO - Telegram Bot Starting...
+2025-01-20 15:55:04,302 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-20 15:55:04,302 - INFO - Polling...
+2025-01-20 15:55:05,200 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-20 15:55:05,488 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-20 15:55:05,489 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-20 15:55:05,489 - INFO - Scheduler started
+2025-01-20 15:55:05,489 - INFO - Application started
+2025-01-20 15:55:14,319 - INFO - Removed job 57ab1619bcce4f1ebad2a4f4bd580526
+2025-01-20 15:55:14,319 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-20 07:55:14 UTC], next run at: 2025-01-20 07:55:14 UTC)" (scheduled at 2025-01-20 07:55:14.301146+00:00)
+2025-01-20 15:55:14,319 - INFO - 開始處理 TWSE 資料...
+2025-01-20 15:55:14,343 - INFO - TWSE 資料處理完成：2025-01-16, 成交金額 339,356,010,755 
+2025-01-20 15:55:14,344 - INFO - 開始處理三大法人買賣超資料...
+2025-01-20 15:55:14,368 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-20 15:55:14,373 - INFO - 三大法人買賣超資料處理完成：2025-01-06, 總合計 64,403,432,101 元
+2025-01-20 15:55:14,373 - INFO - 開始處理期貨資料...
+2025-01-20 15:55:14,386 - INFO - 期貨資料處理完成：2025-01-20
+2025-01-20 15:55:14,386 - INFO - 開始處理選擇權資料...
+2025-01-20 15:55:14,400 - INFO - 選擇權資料處理完成：2025-01-20
+2025-01-20 15:55:14,400 - INFO - 報告生成完成。
+2025-01-20 15:55:15,266 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-20 15:55:15,267 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-20 15:55:15,267 - INFO - 報告發送完成，準備結束程式...
+2025-01-20 15:55:15,269 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-20 07:55:14 UTC], next run at: 2025-01-20 07:55:14 UTC)" executed successfully
+2025-01-20 15:55:16,121 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-20 15:55:16,121 - INFO - Application is stopping. This might take a moment.
+2025-01-20 15:55:16,121 - INFO - Scheduler has been shut down
+2025-01-20 15:55:16,121 - INFO - Application.stop() complete
+2025-01-20 15:55:16,122 - INFO - Telegram Bot Stopped.
+2025-01-21 15:55:04,454 - INFO - Telegram Bot Starting...
+2025-01-21 15:55:04,494 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-21 15:55:04,494 - INFO - Polling...
+2025-01-21 15:55:05,411 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-21 15:55:05,695 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-21 15:55:05,750 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-21 15:55:05,750 - INFO - Scheduler started
+2025-01-21 15:55:05,750 - INFO - Application started
+2025-01-21 15:55:14,507 - INFO - Removed job e9e34c287a6b4094aba84685fc2b41ad
+2025-01-21 15:55:14,507 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-21 07:55:14 UTC], next run at: 2025-01-21 07:55:14 UTC)" (scheduled at 2025-01-21 07:55:14.493567+00:00)
+2025-01-21 15:55:14,507 - INFO - 開始處理 TWSE 資料...
+2025-01-21 15:55:14,519 - INFO - TWSE 資料處理完成：2025-01-21, 成交金額 259,791,992,403 
+2025-01-21 15:55:14,519 - INFO - 開始處理三大法人買賣超資料...
+2025-01-21 15:55:14,529 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-21 15:55:14,534 - INFO - 三大法人買賣超資料處理完成：2025-01-21, 總合計 -580,468,109 元
+2025-01-21 15:55:14,534 - INFO - 開始處理期貨資料...
+2025-01-21 15:55:14,545 - INFO - 期貨資料處理完成：2025-01-21
+2025-01-21 15:55:14,545 - INFO - 開始處理選擇權資料...
+2025-01-21 15:55:14,560 - INFO - 選擇權資料處理完成：2025-01-21
+2025-01-21 15:55:14,560 - INFO - 報告生成完成。
+2025-01-21 15:55:15,449 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-21 15:55:15,449 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-21 15:55:15,449 - INFO - 報告發送完成，準備結束程式...
+2025-01-21 15:55:15,451 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-21 07:55:14 UTC], next run at: 2025-01-21 07:55:14 UTC)" executed successfully
+2025-01-21 15:55:16,347 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-21 15:55:16,348 - INFO - Application is stopping. This might take a moment.
+2025-01-21 15:55:16,348 - INFO - Scheduler has been shut down
+2025-01-21 15:55:16,348 - INFO - Application.stop() complete
+2025-01-21 15:55:16,348 - INFO - Telegram Bot Stopped.
+2025-01-22 15:55:03,587 - INFO - Telegram Bot Starting...
+2025-01-22 15:55:03,659 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-22 15:55:03,659 - INFO - Polling...
+2025-01-22 15:55:04,568 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-22 15:55:04,880 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-22 15:55:04,881 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-22 15:55:04,881 - INFO - Scheduler started
+2025-01-22 15:55:04,881 - INFO - Application started
+2025-01-22 15:55:13,680 - INFO - Removed job c719ba81a4744c878560df1eb794b996
+2025-01-22 15:55:13,680 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-22 07:55:13 UTC], next run at: 2025-01-22 07:55:13 UTC)" (scheduled at 2025-01-22 07:55:13.658443+00:00)
+2025-01-22 15:55:13,680 - INFO - 開始處理 TWSE 資料...
+2025-01-22 15:55:13,690 - INFO - TWSE 資料處理完成：2025-01-22, 成交金額 354,172,431,956 
+2025-01-22 15:55:13,690 - INFO - 開始處理三大法人買賣超資料...
+2025-01-22 15:55:13,726 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-22 15:55:13,731 - INFO - 三大法人買賣超資料處理完成：2025-01-21, 總合計 -580,468,109 元
+2025-01-22 15:55:13,731 - INFO - 開始處理期貨資料...
+2025-01-22 15:55:13,741 - INFO - 期貨資料處理完成：2025-01-22
+2025-01-22 15:55:13,741 - INFO - 開始處理選擇權資料...
+2025-01-22 15:55:13,751 - INFO - 選擇權資料處理完成：2025-01-22
+2025-01-22 15:55:13,751 - INFO - 報告生成完成。
+2025-01-22 15:55:14,630 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-22 15:55:14,630 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-22 15:55:14,630 - INFO - 報告發送完成，準備結束程式...
+2025-01-22 15:55:14,634 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-22 07:55:13 UTC], next run at: 2025-01-22 07:55:13 UTC)" executed successfully
+2025-01-22 15:55:15,483 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-22 15:55:15,483 - INFO - Application is stopping. This might take a moment.
+2025-01-22 15:55:15,483 - INFO - Scheduler has been shut down
+2025-01-22 15:55:15,484 - INFO - Application.stop() complete
+2025-01-22 15:55:15,484 - INFO - Telegram Bot Stopped.
+2025-01-23 15:55:03,847 - INFO - Telegram Bot Starting...
+2025-01-23 15:55:03,908 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-23 15:55:03,908 - INFO - Polling...
+2025-01-23 15:55:05,224 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-23 15:55:05,522 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-23 15:55:05,523 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-23 15:55:05,523 - INFO - Scheduler started
+2025-01-23 15:55:05,523 - INFO - Application started
+2025-01-23 15:55:13,920 - INFO - Removed job 9b0dc026b66d4109833dc6fd371992c2
+2025-01-23 15:55:13,920 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-23 07:55:13 UTC], next run at: 2025-01-23 07:55:13 UTC)" (scheduled at 2025-01-23 07:55:13.908256+00:00)
+2025-01-23 15:55:13,920 - INFO - 開始處理 TWSE 資料...
+2025-01-23 15:55:13,942 - INFO - TWSE 資料處理完成：2025-01-22, 成交金額 354,172,431,956 
+2025-01-23 15:55:13,942 - INFO - 開始處理三大法人買賣超資料...
+2025-01-23 15:55:13,985 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-23 15:55:13,989 - INFO - 三大法人買賣超資料處理完成：2025-01-21, 總合計 -580,468,109 元
+2025-01-23 15:55:13,990 - INFO - 開始處理期貨資料...
+2025-01-23 15:55:13,994 - INFO - 期貨資料處理完成：2025-01-22
+2025-01-23 15:55:13,994 - INFO - 開始處理選擇權資料...
+2025-01-23 15:55:13,998 - INFO - 選擇權資料處理完成：2025-01-22
+2025-01-23 15:55:13,998 - INFO - 報告生成完成。
+2025-01-23 15:55:14,870 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-23 15:55:14,870 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-23 15:55:14,870 - INFO - 報告發送完成，準備結束程式...
+2025-01-23 15:55:14,872 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-23 07:55:13 UTC], next run at: 2025-01-23 07:55:13 UTC)" executed successfully
+2025-01-23 15:55:15,789 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-23 15:55:15,789 - INFO - Application is stopping. This might take a moment.
+2025-01-23 15:55:15,789 - INFO - Scheduler has been shut down
+2025-01-23 15:55:15,790 - INFO - Application.stop() complete
+2025-01-23 15:55:15,790 - INFO - Telegram Bot Stopped.
+2025-01-24 15:55:04,133 - INFO - Telegram Bot Starting...
+2025-01-24 15:55:04,181 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-01-24 15:55:04,181 - INFO - Polling...
+2025-01-24 15:55:05,109 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getMe "HTTP/1.1 200 OK"
+2025-01-24 15:55:05,390 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-24 15:55:05,408 - INFO - Added job "send_daily_report_and_exit" to job store "default"
+2025-01-24 15:55:05,408 - INFO - Scheduler started
+2025-01-24 15:55:05,408 - INFO - Application started
+2025-01-24 15:55:14,202 - INFO - Removed job 40d4750940464769b612177a0d405662
+2025-01-24 15:55:14,202 - INFO - Running job "send_daily_report_and_exit (trigger: date[2025-01-24 07:55:14 UTC], next run at: 2025-01-24 07:55:14 UTC)" (scheduled at 2025-01-24 07:55:14.180929+00:00)
+2025-01-24 15:55:14,202 - INFO - 開始處理 TWSE 資料...
+2025-01-24 15:55:14,205 - INFO - TWSE 資料處理完成：2025-01-22, 成交金額 354,172,431,956 
+2025-01-24 15:55:14,205 - INFO - 開始處理三大法人買賣超資料...
+2025-01-24 15:55:14,253 - INFO - 三大法人資料欄位名稱: ['日期', '單位名稱', '買進金額', '賣出金額', '買賣差額']
+2025-01-24 15:55:14,258 - INFO - 三大法人買賣超資料處理完成：2025-01-21, 總合計 -580,468,109 元
+2025-01-24 15:55:14,258 - INFO - 開始處理期貨資料...
+2025-01-24 15:55:14,262 - INFO - 期貨資料處理完成：2025-01-22
+2025-01-24 15:55:14,262 - INFO - 開始處理選擇權資料...
+2025-01-24 15:55:14,268 - INFO - 選擇權資料處理完成：2025-01-22
+2025-01-24 15:55:14,268 - INFO - 報告生成完成。
+2025-01-24 15:55:15,185 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/sendMessage "HTTP/1.1 400 Bad Request"
+2025-01-24 15:55:15,185 - ERROR - 發送每日報告時發生錯誤: Chat not found
+2025-01-24 15:55:15,185 - INFO - 報告發送完成，準備結束程式...
+2025-01-24 15:55:15,187 - INFO - Job "send_daily_report_and_exit (trigger: date[2025-01-24 07:55:14 UTC], next run at: 2025-01-24 07:55:14 UTC)" executed successfully
+2025-01-24 15:55:16,032 - INFO - HTTP Request: POST https://api.telegram.org/bot8025594413:AAHxereThEZ8PrlbtdUT1XxZ3RKtJoOwEfY/getUpdates "HTTP/1.1 200 OK"
+2025-01-24 15:55:16,033 - INFO - Application is stopping. This might take a moment.
+2025-01-24 15:55:16,033 - INFO - Scheduler has been shut down
+2025-01-24 15:55:16,033 - INFO - Application.stop() complete
+2025-01-24 15:55:16,033 - INFO - Telegram Bot Stopped.
